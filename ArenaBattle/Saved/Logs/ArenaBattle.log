@@ -961,3 +961,208 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.13-08.25.25:669][327]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
 [2022.02.13-08.25.25:669][327]PIE: 서버가 로그인했습니다.
 [2022.02.13-08.25.25:671][327]PIE: 에디터에서 플레이 총 시작 시간 0.059초입니다.
+[2022.02.13-08.25.44:153][249]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.02.13-08.26.48:294][548]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{96a85492-1286-4cbe-b7f6-5cd133d5b7de}.
+[2022.02.13-08.26.48:294][548]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{96a85492-1286-4cbe-b7f6-5cd133d5b7de}.
+[2022.02.13-08.26.48:294][548]LogAudioMixer: Resetting audio stream to device id 
+[2022.02.13-08.26.48:300][548]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.13-08.26.48:300][548]LogAudioMixer: Display: 1: FrontRight
+[2022.02.13-08.26.48:352][548]LogAudioMixer: Resetting audio stream to device id 
+[2022.02.13-08.26.48:356][548]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.13-08.26.48:356][548]LogAudioMixer: Display: 1: FrontRight
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.02.13-08.43.03:484][745]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.02.13-08.43.03:484][745]LogPackageName: SearchForPackageOnDisk took   0.139s, but failed to resolve S_ClothTarps_03.
+[2022.02.13-08.43.03:485][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.02.13-08.43.03:669][745]LogPackageName: SearchForPackageOnDisk took   0.124s, but failed to resolve S_ClothTarps_03.
+[2022.02.13-08.43.03:669][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.02.13-08.43.03:669][745]LogPackageName: SearchForPackageOnDisk took   0.136s, but failed to resolve S_ClothTarps_03.
+[2022.02.13-08.43.03:669][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.02.13-08.43.03:669][745]LogPackageName: SearchForPackageOnDisk took   0.136s, but failed to resolve S_ClothTarps_03.
+[2022.02.13-08.43.03:669][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.02.13-08.43.03:669][745]LogPackageName: SearchForPackageOnDisk took   0.135s, but failed to resolve S_ClothTarps_03.
+[2022.02.13-08.43.03:669][745]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.02.13-08.43.05:460][933]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.13-08.43.05:498][933]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.02.13-08.43.13:343][744]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/ArenaBattle.uproject" -game -rocket -progress
+[2022.02.13-08.43.13:647][744]Discovering modules, targets and source code for project...
+[2022.02.13-08.43.15:249][744]Binding IntelliSense data...
+[2022.02.13-08.43.17:352][744]Binding IntelliSense data... 100%
+[2022.02.13-08.43.17:352][744]Writing project files...
+[2022.02.13-08.43.25:991][744]Writing project files... 100%
+[2022.02.13-08.43.26:093][744]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.02.13-08.43.26:101][744]Candidate modules for hot reload:
+[2022.02.13-08.43.26:101][744]  ArenaBattle
+[2022.02.13-08.43.26:101][744]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,3462 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: New page: 컴파일 - 2022. 2. 14. 오전 2:43:35
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Creating makefile for ArenaBattleEditor (no existing makefile)
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 3.6639613 seconds
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Building 11 actions with 12 processes...
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [1/11] Fountain.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [2/11] ArenaBattle.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [3/11] ArenaBattle.init.gen.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [4/11] Fountain.gen.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [5/11] ArenaBattleGameMode.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [6/11] ArenaBattleCharacter.gen.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [7/11] ArenaBattleGameMode.gen.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [8/11] ArenaBattleCharacter.cpp
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [9/11] UE4Editor-ArenaBattle-3462.lib
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3462.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3462.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [10/11] UE4Editor-ArenaBattle-3462.dll
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3462.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3462.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.02.13-08.43.35:628][744]CompilerResultsLog:   [11/11] ArenaBattleEditor.target
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Total time in Parallel executor: 3.37 seconds
+[2022.02.13-08.43.35:628][744]CompilerResultsLog: Total execution time: 9.39 seconds
+[2022.02.13-08.43.35:628][744]LogMainFrame: MainFrame: Module compiling took 9.535 seconds
+[2022.02.13-08.43.35:650][744]LogClass: Could not find existing class Fountain in package /Script/ArenaBattle for HotReload, assuming new class
+[2022.02.13-08.43.35:653][744]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.13-08.43.35:655][744]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.13-08.43.35:703][744]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3825 classes and 930 folders.
+[2022.02.13-08.43.35:703][744]Display: HotReload took  9.6s.
+[2022.02.13-08.43.35:703][744]Warning: HotReload operation took  9.6s.
+[2022.02.13-08.43.35:792][744]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.02.13-08.43.35:802][744]LogDirectoryWatcher: Display: A directory notification failed for 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Developers/Tony/Collections/' because it could not be accessed. Aborting watch request...
+[2022.02.13-08.43.35:803][744]LogDirectoryWatcher: Display: A directory notification failed for 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.02.13-08.43.35:805][744]LogDirectoryWatcher: Display: A directory notification failed for 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.02.13-08.43.35:822][744]LogHotReload: New module detected: UE4Editor-ArenaBattle-3462.dll
+[2022.02.13-08.43.35:881][744]LogSlate: Took 0.008631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.02.13-08.43.35:881][744]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2022.02.13-08.43.35:894][744]LogSlate: Took 0.011755 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.02.13-09.00.13:522][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.13-09.00.13:522][ 82]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.02.13-09.00.13:523][ 82]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.13-09.00.13:523][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.13-09.00.13:532][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.13-09.00.13:534][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.13-09.00.13:537][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.13-09.00.13:537][ 82]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.13-09.00.13:538][ 82]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.13-09.00.13:541][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.13-09.00.13:544][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.02.13-09.00.13:579][ 83]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.13-09.00.13:583][ 83]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.02.13-09.00.13:595][ 83]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.13-09.00.13:597][ 83]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.13-09.00.13:609][ 83]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3825 classes and 930 folders.
+[2022.02.13-09.00.13:612][ 83]Display: HotReload took  0.0s.
+[2022.02.13-09.00.13:640][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.02.13-09.00.18:288][604]LogRenderer: Reallocating scene render targets to support 1048x568 Format 10 NumSamples 1 (Frame:295825).
+[2022.02.13-09.00.18:342][605]LogRenderer: Reallocating scene render targets to support 1056x568 Format 10 NumSamples 1 (Frame:295827).
+[2022.02.13-09.00.18:368][606]LogRenderer: Reallocating scene render targets to support 1096x568 Format 10 NumSamples 1 (Frame:295829).
+[2022.02.13-09.00.18:399][607]LogRenderer: Reallocating scene render targets to support 1108x568 Format 10 NumSamples 1 (Frame:295831).
+[2022.02.13-09.00.18:428][608]LogRenderer: Reallocating scene render targets to support 1120x568 Format 10 NumSamples 1 (Frame:295833).
+[2022.02.13-09.00.18:453][609]LogRenderer: Reallocating scene render targets to support 1124x568 Format 10 NumSamples 1 (Frame:295835).
+[2022.02.13-09.00.18:482][610]LogRenderer: Reallocating scene render targets to support 1128x568 Format 10 NumSamples 1 (Frame:295837).
+[2022.02.13-09.00.18:508][611]LogRenderer: Reallocating scene render targets to support 1132x568 Format 10 NumSamples 1 (Frame:295839).
+[2022.02.13-09.00.18:536][612]LogRenderer: Reallocating scene render targets to support 1136x568 Format 10 NumSamples 1 (Frame:295841).
+[2022.02.13-09.00.18:563][613]LogRenderer: Reallocating scene render targets to support 1140x568 Format 10 NumSamples 1 (Frame:295843).
+[2022.02.13-09.00.18:591][614]LogRenderer: Reallocating scene render targets to support 1144x568 Format 10 NumSamples 1 (Frame:295845).
+[2022.02.13-09.00.22:960][ 50]LogSlate: Window '새 레벨' being destroyed
+[2022.02.13-09.00.22:970][ 50]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.13-09.00.22:984][ 50]LightingResults: New page: 라이팅 빌드
+[2022.02.13-09.00.22:985][ 50]LoadErrors: New page: 맵 로드 중: Template_Default.umap
+[2022.02.13-09.00.23:013][ 50]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.13-09.00.23:013][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.13-09.00.23:013][ 50]MapCheck: New page: 맵 체크
+[2022.02.13-09.00.23:013][ 50]LightingResults: New page: 라이팅 빌드
+[2022.02.13-09.00.23:017][ 50]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.13-09.00.23:019][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.02.13-09.00.23:029][ 50]LogTexture: Display: 텍스처 빌드: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.02.13-09.00.23:031][ 50]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.02.13-09.00.23:032][ 50]LogAIModule: Creating AISystem for world Untitled_1
+[2022.02.13-09.00.23:086][ 50]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.13-09.00.23:091][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.02.13-09.00.23:098][ 50]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.13-09.00.23:098][ 50]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.152ms.
+[2022.02.13-09.00.23:098][ 50]LogFileHelpers: Loading map 'Template_Default' took 0.127
+[2022.02.13-09.00.48:145][ 67]LogActorFactory: Actor Factory created SM_SQUARE
+[2022.02.13-09.00.48:266][ 79]LogActorFactory: Actor Factory created SM_SQUARE
+[2022.02.13-09.00.52:192][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.13-09.00.52:887][614]Cmd: DELETE
+[2022.02.13-09.00.52:887][614]Cmd: ACTOR DELETE
+[2022.02.13-09.00.52:888][614]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.13-09.00.52:892][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.02.13-09.00.52:893][614]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2022.02.13-09.00.55:693][657]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.02.13-09.00.55:698][657]LogContentBrowser: Creating deferred item: NewFolder
+[2022.02.13-09.00.58:877][657]LogContentBrowser: Attempting asset rename: NewFolder -> Mapns
+[2022.02.13-09.00.58:895][657]LogContentBrowser: End creating deferred item NewFolder
+[2022.02.13-09.01.02:787][657]LogContentBrowser: Attempting asset rename: Mapns -> Maps
+[2022.02.13-09.01.07:040][657]LogSlate: Window '레벨 다른 이름으로 저장' being destroyed
+[2022.02.13-09.01.07:064][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.13-09.01.07:068][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.02.13-09.01.07:261][657]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Step1EFB491B242713535A7513B8C38B2418E.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1.umap'
+[2022.02.13-09.01.07:303][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1_BuiltData" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset" SILENT=true
+[2022.02.13-09.01.07:354][657]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Step1_BuiltData101A29DE4F68B89CB74CD7ADA967B5B5.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset'
+[2022.02.13-09.01.07:361][657]LogFileHelpers: Saving map 'Step1' took 0.312
+[2022.02.13-09.01.07:369][657]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2022.02.13-09.01.07:369][657]LogContentValidation: Display: World /Game/Book/Maps/Step1.Step1 유효성 검사 중
+[2022.02.13-09.01.07:369][657]LogContentValidation: Display: MapBuildDataRegistry /Game/Book/Maps/Step1_BuiltData.Step1_BuiltData 유효성 검사 중
+[2022.02.13-09.01.07:864][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/StaticMesh/SM_SQUARE" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/StaticMesh/SM_SQUARE.uasset" SILENT=true
+[2022.02.13-09.01.08:454][712]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/SM_SQUARE8996CB064E8F9233B42621963031EA9B.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/StaticMesh/SM_SQUARE.uasset'
+[2022.02.13-09.01.08:469][712]AssetCheck: New page: 에셋 저장:  SM_SQUARE
+[2022.02.13-09.01.08:469][712]LogContentValidation: Display: StaticMesh /Game/Book/StaticMesh/SM_SQUARE.SM_SQUARE 유효성 검사 중
+[2022.02.13-09.01.12:581][150]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.02.13-09.01.21:523][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2022.02.13-09.01.21:642][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.13-09.01.21:646][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.02.13-09.01.21:839][190]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Step183FB53994CAC67FF57B12F817E9DCC83.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1.umap'
+[2022.02.13-09.01.21:864][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1_BuiltData" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset" SILENT=true
+[2022.02.13-09.01.21:903][190]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Step1_BuiltDataCFF1B969479D4478045D78B85EA54DAB.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset'
+[2022.02.13-09.01.21:922][190]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2022.02.13-09.01.21:922][190]LogContentValidation: Display: World /Game/Book/Maps/Step1.Step1 유효성 검사 중
+[2022.02.13-09.01.21:922][190]LogContentValidation: Display: MapBuildDataRegistry /Game/Book/Maps/Step1_BuiltData.Step1_BuiltData 유효성 검사 중
+[2022.02.13-09.01.22:436][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.13-09.01.22:440][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.02.13-09.01.22:628][250]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Step1A8E17DB04B07A6922BDAB7AFB8A2A44E.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1.umap'
+[2022.02.13-09.01.22:653][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step1_BuiltData" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset" SILENT=true
+[2022.02.13-09.01.22:703][250]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Step1_BuiltDataFACC0C8241A926B1290AE081A06CC247.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Maps/Step1_BuiltData.uasset'
+[2022.02.13-09.01.22:720][250]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2022.02.13-09.01.22:720][250]LogContentValidation: Display: World /Game/Book/Maps/Step1.Step1 유효성 검사 중
+[2022.02.13-09.01.22:720][250]LogContentValidation: Display: MapBuildDataRegistry /Game/Book/Maps/Step1_BuiltData.Step1_BuiltData 유효성 검사 중
+[2022.02.13-09.10.08:273][562]Candidate modules for hot reload:
+[2022.02.13-09.10.08:273][562]  ArenaBattle
+[2022.02.13-09.10.08:273][562]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,4025 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.02.13-09.10.08:275][562]Warning: Starting HotReload took  0.0s.
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: New page: 컴파일 - 2022. 2. 14. 오전 3:10:33
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 3.9948307 seconds
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   [1/6] ArenaBattle.init.gen.cpp
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   [2/6] Fountain.gen.cpp
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   [3/6] Fountain.cpp
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   [4/6] UE4Editor-ArenaBattle-4025.lib
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4025.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4025.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   [5/6] UE4Editor-ArenaBattle-4025.dll
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4025.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4025.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.02.13-09.10.33:584][438]CompilerResultsLog:   [6/6] ArenaBattleEditor.target
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Total time in Parallel executor: 20.24 seconds
+[2022.02.13-09.10.33:584][438]CompilerResultsLog: Total execution time: 25.20 seconds
+[2022.02.13-09.10.33:584][438]LogMainFrame: MainFrame: Module compiling took 25.315 seconds
+[2022.02.13-09.10.33:608][438]LogClass: Could not find existing class Fountain in package /Script/ArenaBattle for HotReload, assuming new class
+[2022.02.13-09.10.33:680][438]LogHotReload: Re-instancing Fountain after hot-reload.
+[2022.02.13-09.10.33:685][438]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.02.13-09.10.33:687][438]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.13-09.10.33:729][438]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3825 classes and 930 folders.
+[2022.02.13-09.10.33:729][438]Display: HotReload took 25.5s.
+[2022.02.13-09.11.00:485][641]LogEditor: Attempting to add actor of class 'Fountain' to level at -520.00,-450.00,0.00
+[2022.02.13-09.11.00:689][657]LogEditor: Attempting to add actor of class 'Fountain' to level at -170.00,50.00,0.00
