@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D1CE9ACC-6903-40D2-A1F3-0E7F3FFD17A4}</UniqueIdentifier>
+      <UniqueIdentifier>{4E2920E9-0BCC-47D2-B785-73A2F46DD8EB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{275F87DA-056E-42C7-9BC2-5B2D6AA8967B}</UniqueIdentifier>
+      <UniqueIdentifier>{504A75F3-7106-46E0-9403-F7BB737755A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,17 +30,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{56F658C0-1655-46D2-A65B-C242FCF02A44}</UniqueIdentifier>
+      <UniqueIdentifier>{A9765704-E59C-4BA8-B2BA-8EC00C61E6D9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
       <Filter>Source\ArenaBattle</Filter>
     </None>
-    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattleCharacter.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
@@ -53,11 +47,11 @@
     <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattleGameMode.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\Fountain.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp">
+    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
