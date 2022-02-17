@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4E2920E9-0BCC-47D2-B785-73A2F46DD8EB}</UniqueIdentifier>
+      <UniqueIdentifier>{339350DA-C9B7-45E1-B8C7-9FE837C32FE5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{504A75F3-7106-46E0-9403-F7BB737755A8}</UniqueIdentifier>
+      <UniqueIdentifier>{80E8708F-CBA4-47D6-85F4-2FCD65F7B4D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{A9765704-E59C-4BA8-B2BA-8EC00C61E6D9}</UniqueIdentifier>
+      <UniqueIdentifier>{8709155A-DEFA-4EE8-885A-A8357070EA64}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
       <Filter>Source\ArenaBattle</Filter>
@@ -47,11 +47,17 @@
     <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattleGameMode.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\Fountain.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
