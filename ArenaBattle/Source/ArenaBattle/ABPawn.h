@@ -12,6 +12,10 @@ class ARENABATTLE_API AABPawn : public APawn
 {
 	GENERATED_BODY()
 
+private:
+	void UpDown(float NewAxisValue);
+	void LeftRight(float NewAxisValue);
+	
 public:
 	// Sets default values for this pawn's properties
 	AABPawn();
