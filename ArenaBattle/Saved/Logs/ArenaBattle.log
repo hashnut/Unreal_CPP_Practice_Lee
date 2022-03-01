@@ -1960,3 +1960,357 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.01-01.01.13:271][440]LogPlayLevel: Display: Destroying online subsystem :Context_36
 [2022.03.01-01.03.58:226][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
 [2022.03.01-01.03.58:232][977]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Book/Maps/Step2' took 0.029
+[2022.03.01-01.11.59:831][603]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.03.01-01.11.59:852][603]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.01-01.13.58:921][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2022.03.01-01.13.58:925][328]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Book/Maps/Step2' took 0.026
+[2022.03.01-01.23.59:325][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.03.01-01.23.59:327][127]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Book/Maps/Step2' took 0.023
+[2022.03.01-01.29.56:258][105]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Book/Animations/WarriorJump_Start.WarriorJump_Start
+[2022.03.01-01.29.56:266][105]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.03.01-01.29.56:642][105]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.03.01-01.29.57:822][209]LogSlate: Window 'WarriorJump_Start' being destroyed
+[2022.03.01-01.29.57:827][209]LogSlate: Window 'WarriorJump_Start' being destroyed
+[2022.03.01-01.29.57:827][209]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.29.57:828][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.29.57:872][209]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.29.57:872][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.29.57:968][209]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.29.57:968][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.29.58:594][278]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.01-01.29.58:616][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.01-01.29.58:616][278]PIE: New page: PIE 세션: Step2 (2022. 3. 1. 오후 7:29:58)
+[2022.03.01-01.29.58:616][278]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2022.03.01-01.29.58:619][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2022.03.01-01.29.58:620][278]LogAIModule: Creating AISystem for world Step2
+[2022.03.01-01.29.58:620][278]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2022.03.01-01.29.58:620][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.003904s)
+[2022.03.01-01.29.58:648][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.03.01-01.29.58:651][278]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.01-01.29.58:651][278]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.01-01.29.58:651][278]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.01-01.29.58:652][278]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.01-01.29.58:652][278]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.01-01.29.58:652][278]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.01-01.29.58:652][278]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.01-01.29.58:654][278]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.01-01.29.58:654][278]LogAudioMixer: Display: 1: FrontRight
+[2022.03.01-01.29.58:667][278]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.01-01.29.58:667][278]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.01-01.29.58:667][278]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.01-01.29.58:667][278]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.01-01.29.58:667][278]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.01-01.29.58:667][278]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.01-01.29.58:667][278]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.01-01.29.58:668][278]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.01-01.29.58:668][278]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.01-01.29.58:668][278]LogInit: FAudioDevice initialized.
+[2022.03.01-01.29.58:668][278]LogAudio: Display: Audio Device (ID: 11) registered with world 'Step2'.
+[2022.03.01-01.29.58:689][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-01.29.58:689][278]LogLoad: Game class is 'ABGameMode'
+[2022.03.01-01.29.58:692][278]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.03.01-10.29.58
+[2022.03.01-01.29.58:692][278]ArenaBattle: Warning: AFountain::PostInitializeComponents(70)
+[2022.03.01-01.29.58:692][278]ArenaBattle: Warning: AFountain::PostInitializeComponents(70)
+[2022.03.01-01.29.58:692][278]LogWorld: Bringing up level for play took: 0.001946
+[2022.03.01-01.29.58:692][278]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2022.03.01-01.29.58:694][278]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.03.01-01.29.58:694][278]ArenaBattle: Warning: AABGameMode::PostLogin(22) PostLogin Begin
+[2022.03.01-01.29.58:695][278]ArenaBattle: Warning: AABPlayerController::OnPossess(14)
+[2022.03.01-01.29.58:695][278]ArenaBattle: Warning: AABGameMode::PostLogin(24) PostLogin End
+[2022.03.01-01.29.58:695][278]ArenaBattle: Warning: AFountain::BeginPlay(57)
+[2022.03.01-01.29.58:695][278]ArenaBattle: Warning: AFountain::BeginPlay(58) Actor Name : Fountain_1, ID : 0, Location X : -150.000
+[2022.03.01-01.29.58:695][278]ArenaBattle: Warning: AFountain::BeginPlay(57)
+[2022.03.01-01.29.58:695][278]ArenaBattle: Warning: AFountain::BeginPlay(58) Actor Name : Fountain_3, ID : 0, Location X : -130.000
+[2022.03.01-01.29.58:696][278]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.01-01.29.58:697][278]PIE: 서버가 로그인했습니다.
+[2022.03.01-01.29.58:698][278]PIE: 에디터에서 플레이 총 시작 시간 0.082초입니다.
+[2022.03.01-01.29.59:053][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-01.29.59:053][306]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step2
+[2022.03.01-01.29.59:053][306]LogSlate: Window 'ArenaBattle 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.03.01-01.29.59:057][306]ArenaBattle: Warning: AFountain::EndPlay(64)
+[2022.03.01-01.29.59:057][306]ArenaBattle: Warning: AFountain::EndPlay(64)
+[2022.03.01-01.29.59:057][306]LogWorld: UWorld::CleanupWorld for Step2, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.29.59:058][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.29.59:065][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.01-01.29.59:071][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.29.59:092][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.01-01.29.59:092][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-01.29.59:093][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-01.29.59:099][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.03.01-01.29.59:126][307]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.03.01-01.30.12:400][873]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.30.12:400][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.30.12:419][873]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.30.12:419][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.30.12:556][873]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.30.12:556][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.30.13:937][ 13]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+[2022.03.01-01.30.13:952][ 13]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.03.01-01.30.14:582][ 13]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.03.01-01.30.14:958][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.03.01-01.30.14:985][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Animations/WarriorAnimBlueprint" FILE="D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Animations/WarriorAnimBlueprint.uasset" SILENT=true
+[2022.03.01-01.30.15:415][ 52]LogSavePackage: Moving 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/WarriorAnimBlueprintD0E0275142A30DD4480CBE99EDE6438F.tmp' to 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Content/Book/Animations/WarriorAnimBlueprint.uasset'
+[2022.03.01-01.30.15:433][ 52]AssetCheck: New page: 에셋 저장:  WarriorAnimBlueprint
+[2022.03.01-01.30.15:433][ 52]LogContentValidation: Display: AnimBlueprint /Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint 유효성 검사 중
+[2022.03.01-01.30.57:458][ 67]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Book/Animations/WarriorJump_Start.WarriorJump_Start
+[2022.03.01-01.30.57:466][ 67]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.03.01-01.30.57:835][ 67]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.03.01-01.30.59:361][203]LogSlate: Window 'WarriorJump_Start' being destroyed
+[2022.03.01-01.30.59:366][203]LogSlate: Window 'WarriorJump_Start' being destroyed
+[2022.03.01-01.30.59:366][203]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.30.59:366][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.30.59:409][203]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.30.59:409][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.30.59:500][203]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.30.59:501][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.33.28:426][ 88]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.01-01.33.28:452][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.01-01.33.28:452][ 88]PIE: New page: PIE 세션: Step2 (2022. 3. 1. 오후 7:33:28)
+[2022.03.01-01.33.28:452][ 88]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2022.03.01-01.33.28:454][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002494s)
+[2022.03.01-01.33.28:455][ 88]LogAIModule: Creating AISystem for world Step2
+[2022.03.01-01.33.28:455][ 88]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2022.03.01-01.33.28:456][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.003575s)
+[2022.03.01-01.33.28:513][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.03.01-01.33.28:520][ 88]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.01-01.33.28:520][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.01-01.33.28:520][ 88]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.01-01.33.28:520][ 88]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.01-01.33.28:520][ 88]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.01-01.33.28:520][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.01-01.33.28:523][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.01-01.33.28:523][ 88]LogAudioMixer: Display: 1: FrontRight
+[2022.03.01-01.33.28:535][ 88]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.01-01.33.28:535][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.01-01.33.28:536][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.01-01.33.28:536][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.01-01.33.28:536][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.01-01.33.28:536][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.01-01.33.28:536][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.01-01.33.28:537][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.01-01.33.28:537][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.01-01.33.28:537][ 88]LogInit: FAudioDevice initialized.
+[2022.03.01-01.33.28:538][ 88]LogAudio: Display: Audio Device (ID: 12) registered with world 'Step2'.
+[2022.03.01-01.33.28:552][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-01.33.28:553][ 88]LogLoad: Game class is 'ABGameMode'
+[2022.03.01-01.33.28:555][ 88]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.03.01-10.33.28
+[2022.03.01-01.33.28:555][ 88]ArenaBattle: Warning: AFountain::PostInitializeComponents(70)
+[2022.03.01-01.33.28:555][ 88]ArenaBattle: Warning: AFountain::PostInitializeComponents(70)
+[2022.03.01-01.33.28:555][ 88]LogWorld: Bringing up level for play took: 0.002175
+[2022.03.01-01.33.28:555][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2022.03.01-01.33.28:557][ 88]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.03.01-01.33.28:557][ 88]ArenaBattle: Warning: AABGameMode::PostLogin(22) PostLogin Begin
+[2022.03.01-01.33.28:558][ 88]ArenaBattle: Warning: AABPlayerController::OnPossess(14)
+[2022.03.01-01.33.28:558][ 88]ArenaBattle: Warning: AABGameMode::PostLogin(24) PostLogin End
+[2022.03.01-01.33.28:558][ 88]ArenaBattle: Warning: AFountain::BeginPlay(57)
+[2022.03.01-01.33.28:558][ 88]ArenaBattle: Warning: AFountain::BeginPlay(58) Actor Name : Fountain_1, ID : 0, Location X : -150.000
+[2022.03.01-01.33.28:558][ 88]ArenaBattle: Warning: AFountain::BeginPlay(57)
+[2022.03.01-01.33.28:558][ 88]ArenaBattle: Warning: AFountain::BeginPlay(58) Actor Name : Fountain_3, ID : 0, Location X : -130.000
+[2022.03.01-01.33.28:558][ 88]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.01-01.33.28:559][ 88]PIE: 서버가 로그인했습니다.
+[2022.03.01-01.33.28:560][ 88]PIE: 에디터에서 플레이 총 시작 시간 0.109초입니다.
+[2022.03.01-01.33.40:313][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.01-01.33.40:313][910]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step2
+[2022.03.01-01.33.40:313][910]LogSlate: Window 'ArenaBattle 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.03.01-01.33.40:316][910]ArenaBattle: Warning: AFountain::EndPlay(64)
+[2022.03.01-01.33.40:316][910]ArenaBattle: Warning: AFountain::EndPlay(64)
+[2022.03.01-01.33.40:316][910]LogWorld: UWorld::CleanupWorld for Step2, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.33.40:317][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.33.40:325][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.01-01.33.40:330][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.33.40:348][910]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-01.33.40:349][910]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-01.33.40:353][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.03.01-01.33.40:386][911]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.03.01-01.34.22:300][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.03.01-01.34.22:301][401]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Book/Maps/Step2' took 0.019
+[2022.03.01-01.35.08:843][318]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2022.03.01-01.35.08:851][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.03.01-01.37.36:397][916]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.03.01-01.38.59:386][178]LogSlate: Window '스켈레톤 선택' being destroyed
+[2022.03.01-01.38.59:422][178]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.38.59:422][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.38.59:432][178]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.38.59:433][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.38.59:715][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.03.01-01.38.59:872][204]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.38.59:872][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.38.59:960][204]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.38.59:960][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.39.00:004][204]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.00:004][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.39.00:023][204]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.00:024][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.01-01.39.00:124][204]LogSlate: Window 'ArenaBattle - 언리얼 에디터' being destroyed
+[2022.03.01-01.39.00:309][205]Cmd: QUIT_EDITOR
+[2022.03.01-01.39.00:309][205]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.01-01.39.00:321][205]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.01-01.39.01:138][205]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.01-01.39.01:138][205]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.01-01.39.01:138][205]LogAudio: Display: Audio Device unregistered from world 'Step2'.
+[2022.03.01-01.39.01:138][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-01.39.01:140][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.01-01.39.01:150][205]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.01-01.39.01:186][205]LogWindowsTextInputMethodSystem: Display: IME system activated using TSF (Microsoft 입력기).
+[2022.03.01-01.39.01:200][205]LogExit: Preparing to exit.
+[2022.03.01-01.39.02:061][205]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:330][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:332][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:334][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:335][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:335][205]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:336][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:337][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:338][205]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.01-01.39.02:339][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:340][205]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:340][205]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:396][205]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.01-01.39.02:399][205]LogExit: Editor shut down
+[2022.03.01-01.39.02:402][205]LogExit: Transaction tracking system shut down
+[2022.03.01-01.39.02:411][205]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.01-01.39.02:993][205]LogExit: Object subsystem successfully closed.
+[2022.03.01-01.39.03:012][205]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.01-01.39.03:012][205]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.03.01-01.39.03:012][205]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.03.01-01.39.03:012][205]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.03.01-01.39.03:012][205]LogShaderCompilers: Display: ================================================
+[2022.03.01-01.39.03:031][205]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.03.01-01.39.03:084][205]LogModuleManager: Shutting down and abandoning module SequencerWidgets (894)
+[2022.03.01-01.39.03:084][205]LogModuleManager: Shutting down and abandoning module AnimationEditor (892)
+[2022.03.01-01.39.03:084][205]LogModuleManager: Shutting down and abandoning module ArenaBattle (890)
+[2022.03.01-01.39.03:084][205]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (887)
+[2022.03.01-01.39.03:084][205]LogModuleManager: Shutting down and abandoning module Voice (885)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module BlueprintGraph (880)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module PinnedCommandList (878)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module SkeletonEditor (876)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (874)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (872)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module SceneOutliner (870)
+[2022.03.01-01.39.03:085][205]LogModuleManager: Shutting down and abandoning module AddContentDialog (868)
+[2022.03.01-01.39.03:087][205]LogModuleManager: Shutting down and abandoning module WidgetCarousel (867)
+[2022.03.01-01.39.03:087][205]LogModuleManager: Shutting down and abandoning module EditorWidgets (864)
+[2022.03.01-01.39.03:087][205]LogModuleManager: Shutting down and abandoning module StatsViewer (862)
+[2022.03.01-01.39.03:087][205]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (860)
+[2022.03.01-01.39.03:088][205]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (858)
+[2022.03.01-01.39.03:088][205]LogModuleManager: Shutting down and abandoning module AutomationWorker (856)
+[2022.03.01-01.39.03:088][205]LogModuleManager: Shutting down and abandoning module SteamVREditor (854)
+[2022.03.01-01.39.03:088][205]LogModuleManager: Shutting down and abandoning module OculusMR (852)
+[2022.03.01-01.39.03:088][205]LogModuleManager: Shutting down and abandoning module OpenXRInput (850)
+[2022.03.01-01.39.03:088][205]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (848)
+[2022.03.01-01.39.03:089][205]LogModuleManager: Shutting down and abandoning module TakeRecorder (847)
+[2022.03.01-01.39.03:089][205]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (844)
+[2022.03.01-01.39.03:089][205]LogModuleManager: Shutting down and abandoning module TakesCore (842)
+[2022.03.01-01.39.03:090][205]LogModuleManager: Shutting down and abandoning module GooglePADEditor (840)
+[2022.03.01-01.39.03:090][205]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (838)
+[2022.03.01-01.39.03:090][205]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (836)
+[2022.03.01-01.39.03:090][205]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (834)
+[2022.03.01-01.39.03:090][205]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (832)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (830)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (828)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (826)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (824)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (822)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (820)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (818)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (816)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module WebMMedia (814)
+[2022.03.01-01.39.03:091][205]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (812)
+[2022.03.01-01.39.03:092][205]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (810)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module SequenceRecorder (809)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (806)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (804)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (802)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (800)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (798)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module PlanarCut (796)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (794)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (792)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module TextureAlignMode (790)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module BspMode (788)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module GeometryMode (786)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module CharacterAI (784)
+[2022.03.01-01.39.03:093][205]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (782)
+[2022.03.01-01.39.03:094][205]LogModuleManager: Shutting down and abandoning module SmartSnapping (780)
+[2022.03.01-01.39.03:094][205]LogModuleManager: Shutting down and abandoning module SessionServices (778)
+[2022.03.01-01.39.03:094][205]LogModuleManager: Shutting down and abandoning module MeshPaint (776)
+[2022.03.01-01.39.03:094][205]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (774)
+[2022.03.01-01.39.03:094][205]LogModuleManager: Shutting down and abandoning module FoliageEdit (772)
+[2022.03.01-01.39.03:095][205]LogModuleManager: Shutting down and abandoning module LandscapeEditor (770)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module MeshPaintMode (768)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (766)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module ActorPickerMode (764)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module PlacementMode (762)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module ViewportSnapping (760)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module ViewportInteraction (758)
+[2022.03.01-01.39.03:096][205]LogModuleManager: Shutting down and abandoning module ClothPainter (756)
+[2022.03.01-01.39.03:097][205]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (755)
+[2022.03.01-01.39.03:097][205]LogModuleManager: Shutting down and abandoning module LogVisualizer (752)
+[2022.03.01-01.39.03:098][205]LogModuleManager: Shutting down and abandoning module IntroTutorials (750)
+[2022.03.01-01.39.03:098][205]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (749)
+[2022.03.01-01.39.03:098][205]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (746)
+[2022.03.01-01.39.03:098][205]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (744)
+[2022.03.01-01.39.03:098][205]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (742)
+[2022.03.01-01.39.03:098][205]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (741)
