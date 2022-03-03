@@ -41,6 +41,11 @@ AABCharacter::AABCharacter()
 	ArmRotationSpeed = 10.0f;
 
 	GetCharacterMovement()->JumpZVelocity = 800.0f;
+
+	IsAttacking = false;
+
+	MaxCombo = 4;
+	AttackEndComboState();
 }
 
 // Called when the game starts or when spawned
@@ -143,11 +148,50 @@ void AABCharacter::Turn(float NewAxisValue)
 }
 
 void AABCharacter::Attack() {
-	//ABLOG_S(Warning);
-	auto AnimInstance = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
-	if (nullptr == AnimInstance) return;
+	//if (IsAttacking) return;
 
-	AnimInstance->PlayAttackMontage();
+	////ABLOG_S(Warning);
+	//ABAnim->PlayAttackMontage();
+	//IsAttacking = true;
+	if (IsAttacking)
+	{
+		ABCHECK(FMath::IsWithinInclusive<int32>(CurrentCombo, 1, MaxCombo));
+		if (CanNextCombo)
+		{
+			IsComboInputOn = true;
+		}
+	}
+	else
+	{
+		ABCHECK(CurrentCombo == 0);
+		AttackStartComboState();
+		ABAnim->PlayAttackMontage();
+		ABAnim->JumpToAttackMontageSection(CurrentCombo);
+		IsAttacking = true;
+	}
+}
+
+void AABCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted)
+{
+	ABCHECK(IsAttacking);
+	ABCHECK(CurrentCombo > 0);
+	IsAttacking = false;
+	AttackEndComboState();
+}
+
+void AABCharacter::AttackStartComboState()
+{
+	CanNextCombo = true;
+	IsComboInputOn = false;
+	ABCHECK(FMath::IsWithinInclusive<int32>(CurrentCombo, 0, MaxCombo - 1));
+	CurrentCombo = FMath::Clamp<int32>(CurrentCombo + 1, 1, MaxCombo);
+}
+
+void AABCharacter::AttackEndComboState()
+{
+	IsComboInputOn = false;
+	CanNextCombo = false;
+	CurrentCombo = 0;
 }
 
 void AABCharacter::SetControlMode(EControlMode NewControlMode)
@@ -163,7 +207,7 @@ void AABCharacter::SetControlMode(EControlMode NewControlMode)
 		SpringArm->bInheritPitch = true;
 		SpringArm->bInheritRoll = true;
 		SpringArm->bInheritYaw = true;
-		SpringArm->bDoCollisionTest = false;
+		SpringArm->bDoCollisionTest = true;
 		bUseControllerRotationYaw = false; // rotate pawn to the direction it is heading
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 		GetCharacterMovement()->bUseControllerDesiredRotation = false;
@@ -178,7 +222,7 @@ void AABCharacter::SetControlMode(EControlMode NewControlMode)
 		SpringArm->bInheritPitch = false;
 		SpringArm->bInheritRoll = false;
 		SpringArm->bInheritYaw = false;
-		SpringArm->bDoCollisionTest = true;
+		SpringArm->bDoCollisionTest = false;
 		bUseControllerRotationYaw = false; // rotate pawn to the direction it is heading
 		GetCharacterMovement()->bOrientRotationToMovement = false;
 		GetCharacterMovement()->bUseControllerDesiredRotation = true;
@@ -200,4 +244,25 @@ void AABCharacter::ViewChange()
 		SetControlMode(EControlMode::GTA);
 		break;
 	}
+}
+
+void AABCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	ABAnim = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
+	ABCHECK(nullptr != ABAnim);
+
+	ABAnim->OnMontageEnded.AddDynamic(this, &AABCharacter::OnAttackMontageEnded);
+
+	ABAnim->OnNextAttackCheck.AddLambda([this]() -> void {
+
+		ABLOG(Warning, TEXT("OnNextAttackCheck"));
+		CanNextCombo = false;
+
+		if (IsComboInputOn)
+		{
+			AttackStartComboState();
+			ABAnim->JumpToAttackMontageSection(CurrentCombo);
+		}
+	});
 }

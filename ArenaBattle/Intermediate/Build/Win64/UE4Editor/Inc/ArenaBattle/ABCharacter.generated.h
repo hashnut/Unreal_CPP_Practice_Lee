@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
 #ifdef ARENABATTLE_ABCharacter_generated_h
 #error "ABCharacter.generated.h already included, missing '#pragma once' in ABCharacter.h"
 #endif
 #define ARENABATTLE_ABCharacter_generated_h
 
 #define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_SPARSE_DATA
-#define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS
-#define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
+#define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
 #define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAABCharacter(); \
@@ -58,7 +67,15 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AABCharacter)
 
 
-#define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AABCharacter, IsAttacking); } \
+	FORCEINLINE static uint32 __PPO__CanNextCombo() { return STRUCT_OFFSET(AABCharacter, CanNextCombo); } \
+	FORCEINLINE static uint32 __PPO__IsComboInputOn() { return STRUCT_OFFSET(AABCharacter, IsComboInputOn); } \
+	FORCEINLINE static uint32 __PPO__CurrentCombo() { return STRUCT_OFFSET(AABCharacter, CurrentCombo); } \
+	FORCEINLINE static uint32 __PPO__MaxCombo() { return STRUCT_OFFSET(AABCharacter, MaxCombo); } \
+	FORCEINLINE static uint32 __PPO__ABAnim() { return STRUCT_OFFSET(AABCharacter, ABAnim); }
+
+
 #define ArenaBattle_Source_ArenaBattle_ABCharacter_h_9_PROLOG
 #define ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
