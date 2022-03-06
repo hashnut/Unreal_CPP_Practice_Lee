@@ -35,13 +35,26 @@ AABCharacter::AABCharacter()
 		GetMesh()->SetAnimInstanceClass(WARRIOR_ANIM.Class);
 	}
 
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	if (GetMesh()->DoesSocketExist(WeaponSocket))
+	{
+		Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WEAPON"));
+		static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_WEAPON(TEXT("/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight"));
+		if (SK_WEAPON.Succeeded())
+		{
+			Weapon->SetSkeletalMesh(SK_WEAPON.Object);
+		}
+		Weapon->SetupAttachment(GetMesh(), WeaponSocket);
+	}
+
+
 	//SetControlMode(EControlMode::DIABLO);
 	SetControlMode(EControlMode::GTA);
 
 	ArmLengthSpeed = 3.0f;
 	ArmRotationSpeed = 10.0f;
 
-	GetCharacterMovement()->JumpZVelocity = 800.0f;
+	GetCharacterMovement()->JumpZVelocity = 400.0f;
 
 	IsAttacking = false;
 
@@ -284,7 +297,7 @@ void AABCharacter::AttackCheck()
 		GetActorLocation(),
 		GetActorLocation() + GetActorForwardVector() + AttackRange,
 		FQuat::Identity,
-		ECollisionChannel::ECC_GameTraceChannel12,
+		ECollisionChannel::ECC_GameTraceChannel2,
 		FCollisionShape::MakeSphere(AttackRadius),
 		Params);
 
