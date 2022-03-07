@@ -1,7 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
   Building ArenaBattleEditor...
   Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] ABGameMode.cpp
-D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\ABGameMode.cpp(14): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" ArenaBattleEditor Win64 Development -Project="D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\ArenaBattle.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).
+  Building 1 action with 12 processes...
+    [1/1] ArenaBattleEditor.target
+  Total time in Parallel executor: 0.39 seconds
+  Total execution time: 1.25 seconds
