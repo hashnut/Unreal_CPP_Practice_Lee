@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UParticleSystemComponent;
 class UPrimitiveComponent;
 class AActor;
 struct FHitResult;
@@ -19,11 +20,13 @@ struct FHitResult;
 #define ArenaBattle_Source_ArenaBattle_ABItemBox_h_12_SPARSE_DATA
 #define ArenaBattle_Source_ArenaBattle_ABItemBox_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnEffectFinished); \
 	DECLARE_FUNCTION(execOnCharacterOverlap);
 
 
 #define ArenaBattle_Source_ArenaBattle_ABItemBox_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnEffectFinished); \
 	DECLARE_FUNCTION(execOnCharacterOverlap);
 
 
