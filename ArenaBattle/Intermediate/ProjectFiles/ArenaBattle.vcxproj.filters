@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5D14D86A-59E8-47A5-B728-A3705572A78D}</UniqueIdentifier>
+      <UniqueIdentifier>{CC8A4BCC-6725-4B3C-9746-1B23F95F6C3A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E5C5F50B-CE02-4E16-BB90-40E4D093B479}</UniqueIdentifier>
+      <UniqueIdentifier>{DE4F88D1-4212-4C78-9015-0BAD65C9A405}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{7D743548-C3CC-42C2-9759-739DC5317411}</UniqueIdentifier>
+      <UniqueIdentifier>{66D89B10-A44D-44B3-B3C2-D90CBB69461E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
       <Filter>Source\ArenaBattle</Filter>
@@ -98,12 +98,6 @@
     <ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\ABCharacter.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
@@ -113,10 +107,16 @@
     <ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\MyUserWidget.h">
+    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\MyUserWidget.cpp">
+    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterWidget.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterWidget.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
   </ItemGroup>
