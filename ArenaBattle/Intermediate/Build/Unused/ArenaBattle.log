@@ -1,45 +1,7 @@
-﻿  Cleaning ArenaBattleEditor and UnrealHeaderTool binaries...
-  Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
-  Creating makefile for ArenaBattleEditor (no existing makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
+  Invalidating makefile for ArenaBattleEditor (ArenaBattle.Build.cs modified)
   Parsing headers for ArenaBattleEditor
     Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for ArenaBattleEditor in 4.5551221 seconds
-  Building ArenaBattleEditor...
-  Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 31 actions with 12 processes...
-    [1/31] Default.rc2
-    [2/31] SharedPCH.Engine.ShadowErrors.cpp
-    [3/31] ArenaBattle.init.gen.cpp
-    [4/31] ArenaBattleGameMode.cpp
-    [5/31] ArenaBattleCharacter.cpp
-    [6/31] ArenaBattleGameMode.gen.cpp
-    [7/31] ABPlayerController.cpp
-    [8/31] Fountain.cpp
-    [9/31] ArenaBattleCharacter.gen.cpp
-    [10/31] ABGameInstance.gen.cpp
-    [11/31] ABGameMode.gen.cpp
-    [12/31] ABAnimInstance.gen.cpp
-    [13/31] ABPawn.cpp
-    [14/31] ABCharacterStatComponent.cpp
-    [15/31] ABItemBox.cpp
-    [16/31] ABPawn.gen.cpp
-    [17/31] ABPlayerController.gen.cpp
-    [18/31] ABCharacter.cpp
-    [19/31] ABGameMode.cpp
-    [20/31] ABGameInstance.cpp
-    [21/31] ABWeapon.gen.cpp
-    [22/31] ABCharacterStatComponent.gen.cpp
-    [23/31] ABWeapon.cpp
-    [24/31] Fountain.gen.cpp
-    [25/31] ABAnimInstance.cpp
-    [26/31] ABItemBox.gen.cpp
-    [27/31] ABCharacter.gen.cpp
-    [28/31] ArenaBattle.cpp
-    [29/31] UE4Editor-ArenaBattle.lib
-       D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.lib 라이브러리 및 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.exp 개체를 생성하고 있습니다.
-    [30/31] UE4Editor-ArenaBattle.dll
-       D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.lib 라이브러리 및 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.exp 개체를 생성하고 있습니다.
-    [31/31] ArenaBattleEditor.target
-  Total time in Parallel executor: 68.74 seconds
-  Total execution time: 83.48 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): warning MSB5021: 빌드가 취소되었으므로 작업 실행 파일 "cmd" 및 자식 프로세스를 종료합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB4181: "Exec" 작업이 false를 반환했지만 오류를 기록하지 않았습니다.
