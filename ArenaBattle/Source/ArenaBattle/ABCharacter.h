@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ABCharacter.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
+
 UCLASS()
 class ARENABATTLE_API AABCharacter : public ACharacter
 {
@@ -41,12 +43,14 @@ public:
 	virtual void PostInitializeComponents() override;
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController*, AActor* DamageCauser) override;
 	virtual void PossessedBy(AController* NewController) override;
-
+	
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	bool CanSetWeapon();
 	void SetWeapon(class AABWeapon* NewWeapon);
+	void Attack();
+	FOnAttackEndDelegate OnAttackEnd;
 
 	UPROPERTY(VisibleAnywhere, Category=Weapon)
 	class AABWeapon* CurrentWeapon;
@@ -73,7 +77,6 @@ private:
 	void Turn(float NewAxisValue);
 
 	void ViewChange();
-	void Attack();
 
 	UFUNCTION()
 	void OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted);

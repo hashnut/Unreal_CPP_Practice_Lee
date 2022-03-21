@@ -1,7 +1,121 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
-  Invalidating makefile for ArenaBattleEditor (ArenaBattle.Build.cs modified)
+﻿  Cleaning ArenaBattleEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development (Unable to delete \\?\D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h)
+  Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022).
+  Invalidating makefile for ArenaBattleEditor (UHT files changed)
   Parsing headers for ArenaBattleEditor
     Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): warning MSB5021: 빌드가 취소되었으므로 작업 실행 파일 "cmd" 및 자식 프로세스를 종료합니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB4181: "Exec" 작업이 false를 반환했지만 오류를 기록하지 않았습니다.
+  Reflection code generated for ArenaBattleEditor in 4.3958658 seconds
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0001.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0123.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0123.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0303.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0303.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0537.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0537.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0550.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0550.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0665.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0665.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0993.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-0993.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-1327.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-1327.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-1696.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-1696.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2069.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2069.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2100.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2267.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2267.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2414.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2414.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2777.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2777.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-3754.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-3754.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4083.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4083.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4117.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4552.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4552.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5294.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5294.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5562.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5562.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5573.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5573.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5600.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5600.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5650.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5650.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6560.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6560.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6619.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6619.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6827.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6827.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6930.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6930.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-7381.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-7381.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-7512.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-7512.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8128.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8128.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8278.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8278.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8437.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8437.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8489.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8489.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8863.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8863.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-9300.dll
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-9300.pdb
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0123.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0303.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0537.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0550.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0665.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0993.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-1327.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-1696.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-2069.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-2100.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-2267.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-2414.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-2777.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-3754.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4083.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4117.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-4552.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-5294.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-5562.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-5573.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-5600.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-5650.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6560.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6619.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6827.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-6930.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-7381.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-7512.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-8128.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-8278.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-8437.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-8489.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-8863.lib
+  Deleted hot-reload file: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9300.lib
+  Building ArenaBattleEditor...
+  Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] ArenaBattle.init.gen.cpp
+    [2/4] UE4Editor-ArenaBattle.lib
+       D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.lib 라이브러리 및 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.exp 개체를 생성하고 있습니다.
+    [3/4] UE4Editor-ArenaBattle.dll
+       D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.lib 라이브러리 및 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle.suppressed.exp 개체를 생성하고 있습니다.
+    [4/4] ArenaBattleEditor.target
+  Total time in Parallel executor: 3.98 seconds
+  Total execution time: 11.91 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(51,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat" ArenaBattleEditor Win64 Development -Project="D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\ArenaBattle.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -1).
