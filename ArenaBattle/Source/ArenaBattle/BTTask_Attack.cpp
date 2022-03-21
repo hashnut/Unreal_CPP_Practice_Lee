@@ -22,7 +22,7 @@ EBTNodeResult::Type UBTTask_Attack::ExecuteTask(UBehaviorTreeComponent& OwnerCom
 	IsAttacking = true;
 	ABCharacter->OnAttackEnd.AddLambda([this]() -> void {
 		IsAttacking = false;
-	});
+		});
 
 	return EBTNodeResult::InProgress;
 }

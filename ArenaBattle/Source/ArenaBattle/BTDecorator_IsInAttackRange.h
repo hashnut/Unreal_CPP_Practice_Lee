@@ -7,14 +7,14 @@
 #include "BTDecorator_IsInAttackRange.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class ARENABATTLE_API UBTDecorator_IsInAttackRange : public UBTDecorator
 {
 	GENERATED_BODY()
-	
-public:
+
+	public:
 	UBTDecorator_IsInAttackRange();
 
 protected:

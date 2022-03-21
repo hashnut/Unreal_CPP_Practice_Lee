@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A59B0521-7725-4643-8D5F-AD2E466AF06E}</UniqueIdentifier>
+      <UniqueIdentifier>{D96B160A-672D-457B-BED7-A5508A7A2397}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D16CF90A-818C-4A75-8B95-38A4BD690DF1}</UniqueIdentifier>
+      <UniqueIdentifier>{C81437A9-615E-4DD0-9CAE-5427C3ED099C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{C89DF027-09F8-4E0A-9F19-54EED51D4157}</UniqueIdentifier>
+      <UniqueIdentifier>{5AB2C552-A8B5-4CDB-B2A1-179379579AFD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
       <Filter>Source\ArenaBattle</Filter>
@@ -110,13 +110,25 @@
     <ClInclude Include="..\..\Source\ArenaBattle\BTTask_Attack.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTDecorator_IsInAttackRange.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\BTTask_TurnToTarget.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ArenaBattle\BTTask_TurnToTarget.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABAIController.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\BTService_Detect.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\BTDecorator_IsInAttackRange.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h">
@@ -140,20 +152,8 @@
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
       <Filter>Source\ArenaBattle</Filter>
     </None>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTService_Detect.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\ArenaBattle\ABAIController.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABAIController.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

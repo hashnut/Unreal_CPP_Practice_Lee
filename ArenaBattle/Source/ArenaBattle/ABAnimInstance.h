@@ -26,7 +26,7 @@ public:
 public:
 	FOnNextAttackCheckDelegate OnNextAttackCheck;
 	FOnAttackHitCheckDelegate OnAttackHitCheck;
-	void SetDeadAnim() { IsDead = true;  }
+	void SetDeadAnim() { IsDead = true; }
 
 private:
 	UFUNCTION()

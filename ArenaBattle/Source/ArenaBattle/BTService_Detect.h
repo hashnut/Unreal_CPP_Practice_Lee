@@ -7,14 +7,14 @@
 #include "BTService_Detect.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class ARENABATTLE_API UBTService_Detect : public UBTService
 {
 	GENERATED_BODY()
-	
-public:
+
+	public:
 	UBTService_Detect();
 
 protected:
