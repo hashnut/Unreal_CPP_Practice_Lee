@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ArenaBattleGameMode.h"
+#include "ArenaBattle/Public/ArenaBattleGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleGameMode() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaBattleGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ArenaBattleGameMode.h" },
-		{ "ModuleRelativePath", "ArenaBattleGameMode.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaBattleGameMode, 53277319);
+	IMPLEMENT_CLASS(AArenaBattleGameMode, 2577164924);
 	template<> ARENABATTLE_API UClass* StaticClass<AArenaBattleGameMode>()
 	{
 		return AArenaBattleGameMode::StaticClass();

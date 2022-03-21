@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D96B160A-672D-457B-BED7-A5508A7A2397}</UniqueIdentifier>
+      <UniqueIdentifier>{8309E67F-D03F-4D57-8F18-964406348328}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C81437A9-615E-4DD0-9CAE-5427C3ED099C}</UniqueIdentifier>
+      <UniqueIdentifier>{29EB35D7-E7D0-4038-BEC4-B1CEA6144514}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,131 +29,167 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultArenaBattle.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultArenaBattle.ini.bak">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{5AB2C552-A8B5-4CDB-B2A1-179379579AFD}</UniqueIdentifier>
+      <UniqueIdentifier>{FD5A7848-7823-4AD7-AAF5-E15726C31B05}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABAnimInstance.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacter.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABGameMode.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABGameMode.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABItemBox.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABItemBox.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABPawn.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABPlayerController.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABPlayerController.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABWeapon.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABWeapon.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTService_Detect.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattleCharacter.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattleCharacter.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattleGameMode.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattleGameMode.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\Fountain.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTDecorator_IsInAttackRange.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_Attack.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_Attack.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_TurnToTarget.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_TurnToTarget.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABAIController.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\BTService_Detect.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\BTDecorator_IsInAttackRange.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterWidget.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterWidget.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.cpp">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClCompile>
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
       <Filter>Source\ArenaBattle</Filter>
     </None>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABAIController.h">
-      <Filter>Source\ArenaBattle</Filter>
+    <Filter Include="Source\ArenaBattle\Public">
+      <UniqueIdentifier>{B7D5C00E-688A-4B97-A6E5-B3AE6CC83BA5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABAIController.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABAnimInstance.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacter.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacterStatComponent.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacterWidget.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameInstance.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameMode.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABItemBox.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABPawn.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABPlayerController.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABWeapon.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ArenaBattle.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ArenaBattleCharacter.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ArenaBattleGameMode.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\BTService_Detect.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\BTTask_Attack.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\BTTask_FindPatrolPos.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\BTTask_TurnToTarget.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\Fountain.h">
+      <Filter>Source\ArenaBattle\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ArenaBattle\Private">
+      <UniqueIdentifier>{D3024628-4D1A-4748-B267-906FF99D9222}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABAIController.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABAnimInstance.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacterStatComponent.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacterWidget.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameInstance.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameMode.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABItemBox.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABPawn.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABPlayerController.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABWeapon.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ArenaBattle.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ArenaBattleCharacter.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ArenaBattleGameMode.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\BTService_Detect.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\BTTask_Attack.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\BTTask_TurnToTarget.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\Fountain.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacter.cpp">
+      <Filter>Source\ArenaBattle\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ArenaBattleSetting">
+      <UniqueIdentifier>{977FB7EB-F3D6-48C4-9A34-6C68C4485EBA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArenaBattleSetting\ArenaBattleSetting.Build.cs">
+      <Filter>Source\ArenaBattleSetting</Filter>
+    </None>
+    <Filter Include="Source\ArenaBattleSetting\Private">
+      <UniqueIdentifier>{8D2CC27C-7D36-4F2D-97C9-8B6014430FE3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ABCharacterSetting.cpp">
+      <Filter>Source\ArenaBattleSetting\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ArenaBattleSetting.cpp">
+      <Filter>Source\ArenaBattleSetting\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ArenaBattleSetting\Public">
+      <UniqueIdentifier>{A1BEECCF-1E88-4387-AF76-230711DEB577}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ArenaBattleSetting.h">
+      <Filter>Source\ArenaBattleSetting\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ABCharacterSetting.h">
+      <Filter>Source\ArenaBattleSetting\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

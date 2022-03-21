@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/BTTask_FindPatrolPos.h"
+#include "ArenaBattle/Public/BTTask_FindPatrolPos.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_FindPatrolPos_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "BTTask_FindPatrolPos.h" },
-		{ "ModuleRelativePath", "BTTask_FindPatrolPos.h" },
+		{ "ModuleRelativePath", "Public/BTTask_FindPatrolPos.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_FindPatrolPos_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 100626562);
+	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 1811697122);
 	template<> ARENABATTLE_API UClass* StaticClass<UBTTask_FindPatrolPos>()
 	{
 		return UBTTask_FindPatrolPos::StaticClass();

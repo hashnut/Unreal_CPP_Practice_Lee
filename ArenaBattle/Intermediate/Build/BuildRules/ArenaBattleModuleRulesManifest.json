@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
+		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022\\ArenaBattle\\Source\\ArenaBattleSetting\\ArenaBattleSetting.Build.cs",
 		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
 		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs"
 	],

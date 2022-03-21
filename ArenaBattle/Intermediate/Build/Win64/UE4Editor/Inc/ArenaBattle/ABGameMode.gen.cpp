@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABGameMode.h"
+#include "ArenaBattle/Public/ABGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ABGameMode.h" },
-		{ "ModuleRelativePath", "ABGameMode.h" },
+		{ "ModuleRelativePath", "Public/ABGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABGameMode, 714238590);
+	IMPLEMENT_CLASS(AABGameMode, 738583666);
 	template<> ARENABATTLE_API UClass* StaticClass<AABGameMode>()
 	{
 		return AABGameMode::StaticClass();

@@ -1,5 +1,5 @@
 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\BTTask_FindPatrolPos.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\Public\BTTask_FindPatrolPos.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeTypes.h
@@ -36,8 +36,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\BTTask_FindPatrolPos.generated.h
-D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\ABAIController.h
-D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\Public\ABAIController.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h

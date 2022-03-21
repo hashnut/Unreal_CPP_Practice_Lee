@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABWeapon.h"
+#include "ArenaBattle/Public/ABWeapon.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -47,14 +47,14 @@ void EmptyLinkFunctionForGeneratedCodeABWeapon() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABWeapon_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "ABWeapon.h" },
-		{ "ModuleRelativePath", "ABWeapon.h" },
+		{ "ModuleRelativePath", "Public/ABWeapon.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABWeapon_Statics::NewProp_Weapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABWeapon.h" },
+		{ "ModuleRelativePath", "Public/ABWeapon.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABWeapon_Statics::NewProp_Weapon = { "Weapon", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABWeapon, Weapon), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABWeapon_Statics::NewProp_Weapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABWeapon_Statics::NewProp_Weapon_MetaData)) };
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeABWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABWeapon, 4227354971);
+	IMPLEMENT_CLASS(AABWeapon, 526263115);
 	template<> ARENABATTLE_API UClass* StaticClass<AABWeapon>()
 	{
 		return AABWeapon::StaticClass();

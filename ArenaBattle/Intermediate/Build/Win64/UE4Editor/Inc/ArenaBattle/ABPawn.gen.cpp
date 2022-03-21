@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABPawn.h"
+#include "ArenaBattle/Public/ABPawn.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -68,14 +68,14 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "ABPawn.h" },
-		{ "ModuleRelativePath", "ABPawn.h" },
+		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::NewProp_Capsule_MetaData[] = {
 		{ "Category", "Collision" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABPawn.h" },
+		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPawn_Statics::NewProp_Capsule = { "Capsule", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPawn, Capsule), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPawn_Statics::NewProp_Capsule_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPawn_Statics::NewProp_Capsule_MetaData)) };
@@ -83,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Visual" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABPawn.h" },
+		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPawn_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPawn, Mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPawn_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPawn_Statics::NewProp_Mesh_MetaData)) };
@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::NewProp_Movement_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABPawn.h" },
+		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPawn_Statics::NewProp_Movement = { "Movement", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPawn, Movement), Z_Construct_UClass_UFloatingPawnMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPawn_Statics::NewProp_Movement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPawn_Statics::NewProp_Movement_MetaData)) };
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABPawn.h" },
+		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPawn, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm_MetaData)) };
@@ -107,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABPawn.h" },
+		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPawn_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPawn, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPawn_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPawn_Statics::NewProp_Camera_MetaData)) };
@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPawn, 3083698859);
+	IMPLEMENT_CLASS(AABPawn, 821641639);
 	template<> ARENABATTLE_API UClass* StaticClass<AABPawn>()
 	{
 		return AABPawn::StaticClass();

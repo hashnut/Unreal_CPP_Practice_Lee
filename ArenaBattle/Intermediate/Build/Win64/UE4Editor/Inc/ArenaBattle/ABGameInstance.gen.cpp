@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABGameInstance.h"
+#include "ArenaBattle/Public/ABGameInstance.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -78,7 +78,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FABCharacterData_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FABCharacterData_Statics::NewStructOps()
@@ -88,35 +88,35 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Level_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FABCharacterData, Level), METADATA_PARAMS(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Level_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Level_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_MaxHP_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_MaxHP = { "MaxHP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FABCharacterData, MaxHP), METADATA_PARAMS(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_MaxHP_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_MaxHP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Attack_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Attack = { "Attack", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FABCharacterData, Attack), METADATA_PARAMS(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Attack_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_Attack_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_DropExp_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_DropExp = { "DropExp", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FABCharacterData, DropExp), METADATA_PARAMS(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_DropExp_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_DropExp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_NextExp_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_NextExp = { "NextExp", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FABCharacterData, NextExp), METADATA_PARAMS(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_NextExp_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FABCharacterData_Statics::NewProp_NextExp_MetaData)) };
@@ -155,7 +155,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FABCharacterData_Hash() { return 2117548545U; }
+	uint32 Get_Z_Construct_UScriptStruct_FABCharacterData_Hash() { return 192000148U; }
 	void UABGameInstance::StaticRegisterNativesUABGameInstance()
 	{
 	}
@@ -185,12 +185,12 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABGameInstance_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "ABGameInstance.h" },
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABGameInstance_Statics::NewProp_ABCharacterTable_MetaData[] = {
-		{ "ModuleRelativePath", "ABGameInstance.h" },
+		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABGameInstance_Statics::NewProp_ABCharacterTable = { "ABCharacterTable", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABGameInstance, ABCharacterTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABGameInstance_Statics::NewProp_ABCharacterTable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABGameInstance_Statics::NewProp_ABCharacterTable_MetaData)) };
@@ -224,7 +224,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABGameInstance, 3363416358);
+	IMPLEMENT_CLASS(UABGameInstance, 3250278683);
 	template<> ARENABATTLE_API UClass* StaticClass<UABGameInstance>()
 	{
 		return UABGameInstance::StaticClass();

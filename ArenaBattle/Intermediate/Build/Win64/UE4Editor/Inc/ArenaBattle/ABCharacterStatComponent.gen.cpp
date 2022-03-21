@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABCharacterStatComponent.h"
+#include "ArenaBattle/Public/ABCharacterStatComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -52,14 +52,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "ABCharacterStatComponent.h" },
-		{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+		{ "ModuleRelativePath", "Public/ABCharacterStatComponent.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Stat" },
-		{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+		{ "ModuleRelativePath", "Public/ABCharacterStatComponent.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0040000000000801, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABCharacterStatComponent, Level), METADATA_PARAMS(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_Level_MetaData)) };
@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Stat" },
-		{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+		{ "ModuleRelativePath", "Public/ABCharacterStatComponent.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP = { "CurrentHP", nullptr, (EPropertyFlags)0x0040000000000801, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABCharacterStatComponent, CurrentHP), METADATA_PARAMS(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData)) };
@@ -102,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABCharacterStatComponent, 3757373145);
+	IMPLEMENT_CLASS(UABCharacterStatComponent, 3213257475);
 	template<> ARENABATTLE_API UClass* StaticClass<UABCharacterStatComponent>()
 	{
 		return UABCharacterStatComponent::StaticClass();
