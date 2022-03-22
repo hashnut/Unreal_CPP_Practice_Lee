@@ -86,6 +86,8 @@ private:
 	void AttackCheck();
 
 	void OnAssetLoadCompleted();
+	
+	void OnDestroyDeadNPC();
 
 private:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
@@ -114,4 +116,9 @@ private:
 
 	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
 	TSharedPtr<struct FStreamableHandle> AssetStreamingHandle;
+
+	FTimerHandle DestoryNPCTimerHandle = { };
+
+	UPROPERTY(EditAnywhere, Category = Destroy, Meta = (AllowPrivateAccess = true))
+	float EnemyDestroyTime;
 };

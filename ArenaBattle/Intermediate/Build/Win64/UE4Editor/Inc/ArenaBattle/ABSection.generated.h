@@ -76,7 +76,9 @@ public: \
 	FORCEINLINE static uint32 __PPO__GateTriggers() { return STRUCT_OFFSET(AABSection, GateTriggers); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AABSection, Mesh); } \
 	FORCEINLINE static uint32 __PPO__Trigger() { return STRUCT_OFFSET(AABSection, Trigger); } \
-	FORCEINLINE static uint32 __PPO__bNoBattle() { return STRUCT_OFFSET(AABSection, bNoBattle); }
+	FORCEINLINE static uint32 __PPO__bNoBattle() { return STRUCT_OFFSET(AABSection, bNoBattle); } \
+	FORCEINLINE static uint32 __PPO__EnemySpawnTime() { return STRUCT_OFFSET(AABSection, EnemySpawnTime); } \
+	FORCEINLINE static uint32 __PPO__ItemBoxSpawnTime() { return STRUCT_OFFSET(AABSection, ItemBoxSpawnTime); }
 
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABSection_h_9_PROLOG

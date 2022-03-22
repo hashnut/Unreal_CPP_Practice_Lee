@@ -75,7 +75,8 @@ public: \
 	FORCEINLINE static uint32 __PPO__MaxCombo() { return STRUCT_OFFSET(AABCharacter, MaxCombo); } \
 	FORCEINLINE static uint32 __PPO__AttackRange() { return STRUCT_OFFSET(AABCharacter, AttackRange); } \
 	FORCEINLINE static uint32 __PPO__AttackRadius() { return STRUCT_OFFSET(AABCharacter, AttackRadius); } \
-	FORCEINLINE static uint32 __PPO__ABAnim() { return STRUCT_OFFSET(AABCharacter, ABAnim); }
+	FORCEINLINE static uint32 __PPO__ABAnim() { return STRUCT_OFFSET(AABCharacter, ABAnim); } \
+	FORCEINLINE static uint32 __PPO__EnemyDestroyTime() { return STRUCT_OFFSET(AABCharacter, EnemyDestroyTime); }
 
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABCharacter_h_11_PROLOG

@@ -196,3 +196,7 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABSection.generated.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\Public\ABCharacter.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattle\Public\ABItemBox.h
+D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABItemBox.generated.h

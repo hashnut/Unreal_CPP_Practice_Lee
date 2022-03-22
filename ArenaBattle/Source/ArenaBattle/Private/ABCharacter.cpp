@@ -96,6 +96,8 @@ AABCharacter::AABCharacter()
 	//		ABLOG(Warning, TEXT("Character Asset : %s"), *CharacterAsset.ToString());
 	//	}
 	//}
+
+	EnemyDestroyTime = 2.5f;
 }
 
 // Called when the game starts or when spawned
@@ -382,6 +384,10 @@ void AABCharacter::PostInitializeComponents()
 		ABLOG(Warning, TEXT("OnHPIsZero"));
 		ABAnim->SetDeadAnim();
 		SetActorEnableCollision(false);
+		
+		// Destory Dead NPC (by Tony Ahn)
+
+		GetWorld()->GetTimerManager().SetTimer(DestoryNPCTimerHandle, FTimerDelegate::CreateUObject(this, &AABCharacter::OnDestroyDeadNPC), EnemyDestroyTime, false);
 	});
 
 
@@ -464,4 +470,11 @@ void AABCharacter::PossessedBy(AController* NewController)
 		SetControlMode(EControlMode::NPC);
 		GetCharacterMovement()->MaxWalkSpeed = 200.0f;
 	}
+}
+
+void AABCharacter::OnDestroyDeadNPC()
+{
+	//GetWorld()->ForceGarbageCollection(true);
+	if (!IsPlayerControlled())
+		Destroy();
 }

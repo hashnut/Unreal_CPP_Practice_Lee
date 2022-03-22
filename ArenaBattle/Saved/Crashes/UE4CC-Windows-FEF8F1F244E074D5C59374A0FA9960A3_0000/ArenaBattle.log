@@ -1,0 +1,781 @@
+Not using cached read wrapper
+Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+Stats thread started at 0.500017
+ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+Loading text-based GConfig....
+Mounting plugin MeshPainting
+Mounting plugin XGEController
+Mounting plugin Paper2D
+Mounting plugin LiveLink
+Mounting plugin AISupport
+Mounting plugin EnvironmentQueryEditor
+Mounting plugin OodleData
+Mounting plugin AssetManagerEditor
+Mounting plugin LightPropagationVolume
+Mounting plugin CameraShakePreviewer
+Mounting plugin OodleNetwork
+Mounting plugin CryptoKeys
+Mounting plugin CurveEditorTools
+Mounting plugin DataValidation
+Mounting plugin FacialAnimation
+Mounting plugin GameplayTagsEditor
+Mounting plugin GeometryMode
+Mounting plugin MacGraphicsSwitching
+Mounting plugin MobileLauncherProfileWizard
+Mounting plugin MaterialAnalyzer
+Mounting plugin PluginBrowser
+Mounting plugin SpeedTreeImporter
+Mounting plugin AlembicImporter
+Mounting plugin AutomationUtils
+Mounting plugin BackChannel
+Mounting plugin ChaosCloth
+Mounting plugin ChaosNiagara
+Mounting plugin ChaosEditor
+Mounting plugin ChaosSolverPlugin
+Mounting plugin CharacterAI
+Mounting plugin ChaosClothEditor
+Mounting plugin GeometryCollectionPlugin
+Mounting plugin GeometryCache
+Mounting plugin GeometryProcessing
+Mounting plugin MotoSynth
+Mounting plugin OpenImageDenoise
+Mounting plugin Niagara
+Mounting plugin PlanarCut
+Mounting plugin PlatformCrypto
+Mounting plugin ProxyLODPlugin
+Mounting plugin PythonScriptPlugin
+Mounting plugin DatasmithContent
+Mounting plugin VariantManagerContent
+Mounting plugin SkeletalReduction
+Mounting plugin AnimationSharing
+Mounting plugin CLionSourceCodeAccess
+Mounting plugin CodeLiteSourceCodeAccess
+Mounting plugin GitSourceControl
+Mounting plugin NullSourceCodeAccess
+Mounting plugin KDevelopSourceCodeAccess
+Mounting plugin PerforceSourceControl
+Mounting plugin PixWinPlugin
+Mounting plugin PluginUtils
+Mounting plugin PlasticSourceControl
+Mounting plugin PropertyAccessNode
+Mounting plugin SubversionSourceControl
+Mounting plugin RiderSourceCodeAccess
+Mounting plugin TextureFormatOodle
+Mounting plugin VisualStudioSourceCodeAccess
+Mounting plugin XCodeSourceCodeAccess
+Mounting plugin LuminPlatformFeatures
+Mounting plugin VisualStudioCodeSourceCodeAccess
+Mounting plugin MagicLeap
+Mounting plugin MagicLeapLightEstimation
+Mounting plugin UObjectPlugin
+Mounting plugin MagicLeapMedia
+Mounting plugin TcpMessaging
+Mounting plugin UdpMessaging
+Mounting plugin AndroidMedia
+Mounting plugin MagicLeapPassableWorld
+Mounting plugin MLSDK
+Mounting plugin AvfMedia
+Mounting plugin ImgMedia
+Mounting plugin MediaCompositing
+Mounting plugin MediaPlayerEditor
+Mounting plugin ActorSequence
+Mounting plugin WebMMedia
+Mounting plugin WmfMedia
+Mounting plugin LevelSequenceEditor
+Mounting plugin MatineeToLevelSequence
+Mounting plugin TemplateSequence
+Mounting plugin OnlineSubsystem
+Mounting plugin OnlineSubsystemNull
+Mounting plugin OnlineSubsystemUtils
+Mounting plugin LauncherChunkInstaller
+Mounting plugin ActorLayerUtilities
+Mounting plugin AndroidDeviceProfileSelector
+Mounting plugin AndroidMoviePlayer
+Mounting plugin AndroidPermission
+Mounting plugin AppleMoviePlayer
+Mounting plugin AppleImageUtils
+Mounting plugin AssetTags
+Mounting plugin ArchVisCharacter
+Mounting plugin AudioCapture
+Mounting plugin AudioSynesthesia
+Mounting plugin CableComponent
+Mounting plugin ChunkDownloader
+Mounting plugin CustomMeshComponent
+Mounting plugin ExampleDeviceProfileSelector
+Mounting plugin EditableMesh
+Mounting plugin GoogleCloudMessaging
+Mounting plugin GooglePAD
+Mounting plugin ScreenshotTools
+Mounting plugin IOSDeviceProfileSelector
+Mounting plugin LinuxDeviceProfileSelector
+Mounting plugin LocationServicesBPLibrary
+Mounting plugin MobilePatchingUtils
+Mounting plugin OpenXR
+Mounting plugin OpenXREyeTracker
+Mounting plugin OpenXRHandTracking
+Mounting plugin PostSplashScreen
+Mounting plugin PhysXVehicles
+Mounting plugin ProceduralMeshComponent
+Mounting plugin PropertyAccessEditor
+Mounting plugin RuntimePhysXCooking
+Mounting plugin SignificanceManager
+Mounting plugin SoundFields
+Mounting plugin Synthesis
+Mounting plugin WebMMoviePlayer
+Mounting plugin WindowsMoviePlayer
+Mounting plugin Takes
+Mounting plugin GameplayCameras
+Mounting plugin ContentBrowserAssetDataSource
+Mounting plugin ContentBrowserFileDataSource
+Mounting plugin ContentBrowserClassDataSource
+Mounting plugin OnlineSubsystemGooglePlay
+Mounting plugin OnlineSubsystemIOS
+Mounting plugin OculusVR
+Mounting plugin SteamVR
+PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+Using libcurl 7.55.1-DEV
+ - built for x86_64-pc-win32
+ - supports SSL with OpenSSL/1.1.1
+ - supports HTTP deflate (compression) using libz 1.2.8
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_IDN
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+OSS: Creating online subsystem instance for: NULL
+WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+OculusPlugin initialized successfully
+Failed initializing OVRPlugin 1.59.0
+Build: ++UE4+Release-4.27-CL-18319896
+Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+Net CL: 17155196
+OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: AMD Radeon RX 6700 XT
+Compiled (64-bit): Nov 30 2021 07:12:08
+Compiled with Visual C++: 19.24.28315.00
+Build Configuration: Development
+Branch Name: ++UE4+Release-4.27
+Command Line: 
+Base Directory: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+Allocator: TBB
+Installed Engine Build: 1
+Number of dev versions registered: 29
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+  FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+  Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+  Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+  Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+  Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+  Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+  Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+  Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Object subsystem initialized
+Setting CVar [[con.DebugEarlyDefault:1]]
+Setting CVar [[r.setres:1280x720]]
+Setting CVar [[r.VSync:0]]
+Setting CVar [[r.RHICmdBypass:0]]
+Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Setting CVar [[r.GPUCrashDebugging:0]]
+Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+Setting CVar [[gc.FlushStreamingOnGC:0]]
+Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+Setting CVar [[gc.AllowParallelGC:1]]
+Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+Setting CVar [[gc.CreateGCClusters:1]]
+Setting CVar [[gc.MinGCClusterSize:5]]
+Setting CVar [[gc.ActorClusteringEnabled:0]]
+Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+Applying CVar settings from Section [FoliageQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Selected Device Profile: [Windows]
+Applying CVar settings loaded from the selected device profile: [Windows]
+Platform has ~ 16 GB [17101971456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile []
+Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+Applying CVar settings from Section [FoliageQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+Applying CVar settings from Section [ConsoleVariables] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [ConsoleVariables] File [D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Saved/Config/Windows/Editor.ini]
+Computer: DESKTOP-79EDH39
+User: Tony
+CPU Page size=4096, Cores=6
+High frequency timer resolution =10.000000 MHz
+Memory total: Physical=15.9GB (16GB approx)
+Platform Memory Stats for Windows
+Process Physical Memory: 152.00 MB used, 152.08 MB peak
+Process Virtual Memory: 130.00 MB used, 130.00 MB peak
+Physical Memory: 9118.57 MB used,  7191.14 MB free, 16309.71 MB total
+Virtual Memory: 134206864.00 MB used,  10867.82 MB free, 134217728.00 MB total
+WindowsPlatformFeatures enabled
+Physics initialised using underlying interface: PhysX
+Using OS detected language (ko-KR).
+Using OS detected locale (ko-KR).
+No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+Setting process to per monitor DPI aware
+IME system deactivated.
+New Slate User Created.  User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Loaded GFSDK_Aftermath_Lib.x64.dll
+Failed to initialize OpenVR with code 108
+D3D11 min allowed feature level: 11_0
+D3D11 max allowed feature level: 11_0
+D3D11 adapters:
+   0. 'AMD Radeon RX 6700 XT' (Feature Level 11_0)
+      12243/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+   1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+      0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+   2. 'AMD Radeon RX 6700 XT' (Feature Level 11_0)
+      12243/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+Chosen D3D11 Adapter:
+    Description : AMD Radeon RX 6700 XT
+    VendorId    : 1002
+    DeviceId    : 73df
+    SubSysId    : 66011eae
+    Revision    : 00c1
+    DedicatedVideoMemory : 12838318080 bytes
+    DedicatedSystemMemory : 0 bytes
+    SharedSystemMemory : 8550985728 bytes
+    AdapterLuid : 0 50140
+Creating new Direct3DDevice
+    GPU DeviceId: 0x73df (for the marketing name, search the web for "GPU Device Id")
+EnumDisplayDevices:
+   0. 'AMD Radeon RX 6700 XT' (P:0 D:1)
+   1. 'AMD Radeon RX 6700 XT' (P:1 D:1)
+   2. 'AMD Radeon RX 6700 XT' (P:0 D:1)
+   3. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+   4. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+   5. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+   6. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+   7. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   8. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   9. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   10. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   11. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   12. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   13. 'Citrix Indirect Display Adapter' (P:0 D:0)
+   14. 'Citrix Indirect Display Adapter' (P:0 D:0)
+DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
+    Adapter Name: AMD Radeon RX 6700 XT
+  Driver Version: Adrenalin 21.30.23.04 (internal:30.0.13023.4001, unified:30.0.13023.4001)
+     Driver Date: 12-16-2021
+Texture pool is 8032 MB (70% of 11475 MB)
+Creating D3DDevice with AMD AGS, using adapter:
+    Description : AMD Radeon RX 6700 XT
+    VendorId    : 1002
+    DeviceId    : 73df
+    SubSysId    : 66011eae
+    Revision    : 00c1
+    DedicatedVideoMemory : 12838318080 bytes
+    DedicatedSystemMemory : 0 bytes
+    SharedSystemMemory : 8550985728 bytes
+    AdapterLuid : 0 50140
+Created device via AGS, feature level 11_0, supported extensions 1fffffbf.
+RHI has support for 64 bit atomics
+Async texture creation enabled
+Array index from any shader is supported
+GPU Timing Frequency: 100.000000 (Debug: 2 1)
+Loaded TargetPlatform 'AllDesktop'
+Loaded TargetPlatform 'Android'
+Loaded TargetPlatform 'Android_ASTC'
+Loaded TargetPlatform 'Android_DXT'
+Loaded TargetPlatform 'Android_ETC2'
+Loaded TargetPlatform 'AndroidClient'
+Loaded TargetPlatform 'Android_ASTCClient'
+Loaded TargetPlatform 'Android_DXTClient'
+Loaded TargetPlatform 'Android_ETC2Client'
+Loaded TargetPlatform 'Android_Multi'
+Loaded TargetPlatform 'Android_MultiClient'
+Loaded TargetPlatform 'IOSClient'
+Loaded TargetPlatform 'IOS'
+Loaded TargetPlatform 'Linux'
+Loaded TargetPlatform 'LinuxNoEditor'
+Loaded TargetPlatform 'LinuxClient'
+Loaded TargetPlatform 'LinuxServer'
+Loaded TargetPlatform 'LinuxAArch64NoEditor'
+Loaded TargetPlatform 'LinuxAArch64Client'
+Loaded TargetPlatform 'LinuxAArch64Server'
+Loaded TargetPlatform 'Lumin'
+Loaded TargetPlatform 'LuminClient'
+Loaded TargetPlatform 'MacNoEditor'
+Loaded TargetPlatform 'Mac'
+Loaded TargetPlatform 'MacClient'
+Loaded TargetPlatform 'MacServer'
+Loaded TargetPlatform 'TVOSClient'
+Loaded TargetPlatform 'TVOS'
+Loaded TargetPlatform 'WindowsNoEditor'
+Loaded TargetPlatform 'Windows'
+Loaded TargetPlatform 'WindowsClient'
+Loaded TargetPlatform 'WindowsServer'
+Building Assets For Windows
+Lib vorbis DLL was dynamically loaded.
+Oodle Texture 2.9.0 init RDO Off
+Ray tracing is disabled. Reason: r.RayTracing=0.
+Guid format shader working directory is -10 characters bigger than the processId version (D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Intermediate/Shaders/WorkingDirectory/11336/).
+Cleaned the shader compiler working directory 'C:/Users/ejrrb/AppData/Local/Temp/UnrealShaderWorkingDir/731608A2435F131C5C3EB09B7B80307E/'.
+Cannot use XGE Controller as Incredibuild is not installed on this machine.
+Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+Using Local Shader Compiler.
+Max Cache Size: 512 MB
+Loaded boot cache 0.06s 114MB C:/Users/ejrrb/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+Loaded Boot cache: C:/Users/ejrrb/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+FDerivedDataBackendGraph:  Pak pak cache file D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node Pak for hierarchical cache Hierarchy.
+FDerivedDataBackendGraph:  CompressedPak pak cache file D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+Speed tests for C:/Users/ejrrb/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+Performance to C:/Users/ejrrb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=340.22MBs, RandomWriteSpeed=213.13MBs. Assigned SpeedClass 'Local'
+Using Local data cache path C:/Users/ejrrb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+Shared data cache path not found in *engine.ini, will not use an Shared cache.
+Unable to find inner node Shared for hierarchical cache Hierarchy.
+Using FreeType 2.10.0
+SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+FAssetRegistry took 0.0029 seconds to start up
+Selected Device Profile: [Windows]
+Active device profile: [00000201A8C24900][00000201A999B680 49] Windows
+Profiles: [00000201A8C24900][00000201A999B680 49] Windows, [00000201A8B9F300][00000201A99A3800 49] WindowsNoEditor, [00000201A8C27500][00000201A99AB980 49] WindowsServer, [00000201A8B9FD00][00000201A991DB00 49] WindowsClient, [00000201A8C27800][00000201A9924100 49] IOS, [00000201A8B9E300][00000201A9928280 49] iPadAir, [00000201A8C26000][00000201A992C400 49] iPadAir2, [00000201AA5ACA00][00000201AA1726C0 49] IPadPro, [00000201AA5ACB00][00000201A9956700 49] iPadAir3, [00000201A8B9D400][00000201A999E840 49] iPadAir4, [00000201AA5AF400][00000201A6532980 49] iPadMini2, [00000201A8B9E500][00000201A6536AC0 49] iPadMini3, [00000201AA5AD700][00000201A6578C40 49] iPadMini4, [00000201A8C25100][00000201A657CDC0 49] iPadMini5, [00000201AA5D0300][00000201A6581080 49] iPhone6, [00000201AA5D0400][00000201A9DBB0C0 49] iPodTouch6, [00000201AA5ABF00][00000201A6589380 49] iPhone7, [00000201AA5ABE00][00000201A65853C0 49] iPodTouch7, [00000201A8B9DB00][00000201A658D540 49] iPhone5S, [00000201AA5A9A00][00000201A0A316C0 49] iPhone6Plus, [00000201AA5D0200][00000201A9B47840 49] iPhone6S, [00000201AA5A8600][00000201A9B4B9C0 49] iPhone6SPlus, [00000201AA5D2900][00000201A0A35B40 49] iPhone7Plus, [00000201AA5AB100][00000201A0A38140 49] iPhoneSE, [00000201AA5D2200][00000201A0A3C2C0 49] iPhone8, [00000201AA5ABB00][00000201A0A40440 49] iPhone8Plus, [00000201AA5D0A00][00000201A98D45C0 49] iPhoneX, [00000201AA5A9400][00000201A98DC740 49] iPhoneXS, [00000201AA5D3900][00000201A98E08C0 49] iPhoneXSMax, [00000201AA5A8900][00000201A6574A00 49] iPhoneXR, [00000201AA5D2F00][00000201A98E4B40 49] iPhone11, [00000201AA5A9300][00000201A98E8C80 49] iPhone11Pro, [00000201AA5D1000][00000201A98ECDC0 49] iPhone11ProMax, [00000201AA5AAA00][00000201A98F4F40 49] iPhoneSE2, [00000201AA5D1400][00000201A98F90C0 49] iPhone12Mini, [00000201AA5AA400][00000201A98FD240 49] iPhone12, [00000201AA5D0D00][00000201A99013C0 49] iPhone12Pro, [00000201AA5AAB00][00000201A9905540 49] iPhone12ProMax, [00000201AA5D3000][00000201A9EA56C0 49] iPadPro105, [00000201AA5A8700][00000201A9EA9840 49] iPadPro129, [00000201AA5D2800][00000201A9EAD9C0 49] iPadPro97, [00000201AA5AA600][00000201A9EB1B40 49] iPadPro2_129, [00000201AA5D3C00][00000201A9EB4140 49] iPad5, [00000201AA5AA200][00000201A9EB82C0 49] iPad6, [00000201AA5D0F00][00000201A9EBC440 49] iPad7, [00000201AA5AAD00][00000201A9D4A5C0 49] iPad8, [00000201AA5D1100][00000201A9D4E740 49] iPadPro11, [00000201AA5A9600][00000201A9D528C0 49] iPadPro2_11, [00000201AA5D3400][00000201A9D56A40 49] iPadPro3_129, [00000201AA5AA800][00000201A98F0B80 49] iPadPro4_129, [00000201AA5D3A00][00000201AA16ECC0 49] AppleTV, [00000201AA5AA100][00000201A9D94E00 49] AppleTV4K, [00000201AA5D1F00][00000201A9DA4F40 49] TVOS, [00000201AA5AB400][00000201A9DAD0C0 49] Mac, [00000201AA5D3800][00000201A09DF240 49] MacClient, [00000201AA5A9E00][00000201A9B0D3C0 49] MacNoEditor, [00000201AA5D3F00][00000201A9B11540 49] MacServer, [00000201AA5AB500][00000201A09E36C0 49] Linux, [00000201AA5D0C00][00000201A09E7840 49] LinuxAArch64, [00000201AA5AAF00][00000201A09EF9C0 49] LinuxNoEditor, [00000201AA5D0B00][00000201A09F3B40 49] LinuxAArch64NoEditor, [00000201AA5AB700][00000201A09FA140 49] LinuxClient, [00000201AA5D1A00][00000201A09FE2C0 49] LinuxAArch64Client, [00000201AA5A9000][00000201A988E440 49] LinuxServer, [00000201AA5D2500][00000201A98925C0 49] LinuxAArch64Server, [00000201AA5A9900][00000201A9896740 49] Android, [00000201AA5D1300][00000201A989A8C0 49] Android_Low, [00000201AA5AA700][00000201A98B6A40 49] Android_Mid, [00000201AA5D2B00][00000201A98BABC0 49] Android_High, [00000201AA5AB800][00000201A98BED40 49] Android_Default, [00000201AA5D1600][00000201A9DA8E80 49] Android_Adreno4xx, [00000201AA5A9500][00000201A09F6FC0 49] Android_Adreno5xx_Low, [00000201AA5AF600][00000201A09EB100 49] Android_Adreno5xx, [00000201A8B9D300][00000201A98C7280 49] Android_Adreno6xx, [00000201AA5AD200][00000201A98CB400 49] Android_Adreno6xx_Vulkan, [00000201A8B9F700][00000201AA16B580 49] Android_Mali_T6xx, [00000201AA5AD100][00000201A98D9700 49] Android_Mali_T7xx, [00000201A8B9D100][00000201AA177880 49] Android_Mali_T8xx, [00000201AA5ADE00][00000201AA17BA00 49] Android_Mali_G71, [00000201A8B9C500][00000201AA17FB80 49] Android_Mali_G72, [00000201AA5AC800][00000201AA182180 49] Android_Mali_G72_Vulkan, [00000201A8B9CE00][00000201AA186300 49] Android_Mali_G76, [00000201AA5AC100][00000201AA18A480 49] Android_Mali_G76_Vulkan, [00000201A8B9DA00][00000201AA18E600 49] Android_Mali_G77, [00000201AA5AD000][00000201AA192780 49] Android_Mali_G77_Vulkan, [00000201A8B9CA00][00000201AA196900 49] Android_Mali_G78, [00000201AA5AEC00][00000201AA19AA80 49] Android_Mali_G78_Vulkan, [00000201A8B9F100][00000201A9E0CC00 49] Android_Mali_G710, [00000201AA5AEA00][00000201A9E10D80 49] Android_Mali_G710_Vulkan, [00000201A8B9FA00][00000201A9E14F00 49] Android_Vulkan_SM5, [00000201AA5AFB00][00000201A98C3040 49] Android_PowerVR_G6xxx, [00000201A8B9F600][00000201A9E19180 49] Android_PowerVR_GT7xxx, [00000201AA5AF900][00000201A9E1D2C0 49] Android_PowerVR_GE8xxx, [00000201A8B9FF00][00000201A9E25440 49] Android_PowerVR_GM9xxx, [00000201AA5AE700][00000201A9E295C0 49] Android_PowerVR_GM9xxx_Vulkan, [00000201A8B9E200][00000201A9E2D740 49] Android_TegraK1, [00000201AA5AC900][00000201A9E318C0 49] Android_Unknown_Vulkan, [00000201A8B9D800][00000201A9E35A40 49] Lumin, [00000201AA5AC500][00000201A9E39BC0 49] Lumin_Desktop, [00000201A8B9EE00][00000201A9E3C1C0 49] HoloLens, 
+Using QuadricMeshReduction for automatic static mesh reduction
+Using SimplygonMeshReduction for automatic skeletal mesh reduction
+Using ProxyLODMeshReduction for automatic mesh merging
+No distributed automatic mesh merging module available
+No distributed automatic mesh merging module available
+ArenaBattle 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2964408555)
+Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+PokeAHoleMaterial loaded successfully
+17178 objects as part of root set at end of initial load.
+4302048 out of 0 bytes used by permanent object pool.
+CloseDisregardForGC: 0/0 objects in disregard for GC pool
+Niagara Debugger Client Initialized | Session: DADC5AEC465DA037D1F869BC33733D9B | Instance: 25D29DC343706F6E0484758379A88C5B (DESKTOP-79EDH39-11336).
+Using Python 3.7.7
+Initializing TcpMessaging bridge
+Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+
+
+Script Stack (0 frames):
+
+Windows GetLastError: 작업을 완료했습니다. (0)
+Failed to preload 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattleSetting-0006.dll' (GetLastError=1114)
+Error reentered: Assertion failed: GIsHotReload [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectBase.cpp] [Line: 704] 
+Trying to recreate class 'UABCharacterSetting' outside of hot reload!
+
+Failed to load 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-8656.dll' (GetLastError=1114)
+  Missing import: UE4Editor-ArenaBattleSetting-0006.dll
+  Looked in: ../../../Engine/Binaries/Win64
+  Looked in: D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Binaries/Win64
+  Looked in: D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\MeshPainting\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\GeometryProcessing\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\XGEController\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\2D\Paper2D\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\AI\AISupport\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\AI\EnvironmentQueryEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Compression\OodleData\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Cameras\CameraShakePreviewer\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Cameras\GameplayCameras\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\MovieScene\TemplateSequence\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Compression\OodleNetwork\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\CryptoKeys\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\CurveEditorTools\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\DataValidation\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\GeometryMode\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\MacGraphicsSwitching\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\MaterialAnalyzer\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\PluginUtils\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\GeometryCache\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\AutomationUtils\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Tests\ScreenshotTools\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\BackChannel\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\ChaosCloth\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\ChaosNiagara\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\FX\Niagara\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\ChaosSolverPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\ContentBrowser\ContentBrowserFileDataSource\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\ChaosEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\PlanarCutPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\EditableMesh\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\GeometryCollectionPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\ChaosClothEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\MotoSynth\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\OpenImageDenoise\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\ProxyLODPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\SkeletalReduction\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\AnimationSharing\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\SignificanceManager\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\CLionSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\PixWinPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\PlasticSourceControl\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\PropertyAccessNode\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\PropertyAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\RiderSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\TextureFormatOodle\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Lumin\LuminPlatformFeatures\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Lumin\MLSDK\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Lumin\MagicLeap\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Lumin\MagicLeapPassableWorld\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Lumin\MagicLeapLightEstimation\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Lumin\MagicLeapMedia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Portal\LauncherChunkInstaller\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ActorLayerUtilities\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AppleImageUtils\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AssetTags\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ChunkDownloader\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\GooglePAD\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\OpenXR\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\OpenXREyeTracker\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\OpenXRHandTracking\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Animation\LiveLink\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\PostSplashScreen\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\SoundFields\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\Synthesis\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\WebMMoviePlayer\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Media\WebMMedia\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAssetDataSource\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Editor\ContentBrowser\ContentBrowserClassDataSource\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\(Path="")\lib\win64
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\Android
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\IOS
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\Linux
+  Looked in: C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\Lumin
+ModuleManager: Unable to load module 'D:/OneDrive - SNU/github/CPP_Portfolio_2022/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-8656.dll' because the file couldn't be loaded by the OS.
+Message dialog closed, result: Ok, title: 메시지, text: ArenaBattle' 게임 모듈을 로드하지 못했습니다. 운영체제 오류가 있거나 모듈 설정이 제대로 되지 않았을 수 있습니다. 또는 빌드에 포함된 플러그인이 켜짐 상태가 아닐 수 있습니다.
+Engine exit requested (reason: EngineExit() was called)
+Slate User Destroyed.  User Index 0, Is Virtual User: 0
+Preparing to exit.
+Compacting FUObjectHashTables data took   1.43ms
+Error reentered: Assertion failed: Object->HasAnyFlags( RF_BeginDestroyed ) && !Object->HasAnyFlags( RF_FinishDestroyed ) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/GarbageCollection.cpp] [Line: 1574] 
+
+
