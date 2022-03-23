@@ -11,6 +11,10 @@ AABPlayerController::AABPlayerController()
 	{
 		HUDWidgetClass = UI_HUD_C.Class;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> c3e0fac3c41fef62cdb0536010944aac78b63022
 }
 
 void AABPlayerController::PostInitializeComponents()
