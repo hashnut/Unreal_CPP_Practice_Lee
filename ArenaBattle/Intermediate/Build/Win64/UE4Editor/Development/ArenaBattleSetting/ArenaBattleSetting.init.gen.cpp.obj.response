@@ -32,10 +32,10 @@
 /wd4244
 /wd4838
 /I .
-/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattleSetting\Private"
-/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting"
-/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source"
-/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Source\ArenaBattleSetting\Public"
+/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattleSetting\Private"
+/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting"
+/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source"
+/I "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattleSetting\Public"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -264,12 +264,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting\ArenaBattleSetting.init.gen.cpp"
-/FI"D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\Definitions.ArenaBattleSetting.h"
-/Fo"D:\OneDrive - SNU\github\CPP_Portfolio_2022\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\ArenaBattleSetting.init.gen.cpp.obj"
+/FI"D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting\ArenaBattleSetting.init.gen.cpp"
+/FI"D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\Definitions.ArenaBattleSetting.h"
+/Fo"D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\ArenaBattleSetting.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
