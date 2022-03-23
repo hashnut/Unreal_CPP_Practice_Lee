@@ -1680,3 +1680,316 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.23-14.37.33:134][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
 [2022.03.23-14.37.33:163][572]LogPlayLevel: Display: Destroying online subsystem :Context_13
 [2022.03.23-14.37.35:757][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.03.23-14.38.50:083][368]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.23-14.38.50:101][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-14.38.50:101][368]PIE: New page: PIE 세션: Step4 (2022. 3. 24. 오전 8:38:50)
+[2022.03.23-14.38.50:150][368]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.38.50:153][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003387s)
+[2022.03.23-14.38.50:155][368]LogAIModule: Creating AISystem for world Step4
+[2022.03.23-14.38.50:155][368]LogPlayLevel: PIE: World Init took: (0.001590s)
+[2022.03.23-14.38.50:155][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.005240s)
+[2022.03.23-14.38.50:169][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.03.23-14.38.50:170][368]ArenaBattle: Warning: UABGameInstance::Init(18) DropExp of Level 20 ABCharacter : 105
+[2022.03.23-14.38.50:170][368]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-14.38.50:170][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-14.38.50:170][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-14.38.50:171][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-14.38.50:171][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-14.38.50:171][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-14.38.50:171][368]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-14.38.50:174][368]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-14.38.50:174][368]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-14.38.50:186][368]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.23-14.38.50:187][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-14.38.50:187][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-14.38.50:187][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-14.38.50:187][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-14.38.50:187][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-14.38.50:187][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-14.38.50:188][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-14.38.50:188][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-14.38.50:188][368]LogInit: FAudioDevice initialized.
+[2022.03.23-14.38.50:188][368]LogAudio: Display: Audio Device (ID: 8) registered with world 'Step4'.
+[2022.03.23-14.38.50:201][368]LogLoad: Game class is 'ABGameMode'
+[2022.03.23-14.38.50:202][368]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2022.03.23-23.38.50
+[2022.03.23-14.38.50:202][368]LogWorld: Bringing up level for play took: 0.000941
+[2022.03.23-14.38.50:202][368]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.03.23-14.38.50:204][368]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(20)
+[2022.03.23-14.38.50:204][368]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.38.50:204][368]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.38.50:204][368]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.23-14.38.50:205][368]PIE: 서버가 로그인했습니다.
+[2022.03.23-14.38.50:205][368]PIE: 에디터에서 플레이 총 시작 시간 0.105초입니다.
+[2022.03.23-14.38.51:822][561]ArenaBattle: Warning: AABSection::OnTriggerBeginOverlap(152) OnTriggerBeginOverlap : Ready -> Battle 
+[2022.03.23-14.38.54:851][924]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.54:893][929]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.38.54:893][929]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.38.55:101][954]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.55:510][  3]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.55:551][  8]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.38.55:551][  8]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.38.55:693][ 25]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.56:284][ 96]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.56:493][121]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.56:535][126]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.38.56:535][126]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.38.56:876][167]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.57:468][238]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.57:668][262]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.38.57:710][267]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.38.57:710][267]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.38.57:710][267]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_20f4036965adadfc6f19b51b03e92056>::operator ()(496) OnHPIsZero
+[2022.03.23-14.41.23:760][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.41.23:760][376]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.41.23:761][376]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-14.41.23:761][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.41.23:771][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-14.41.23:774][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.41.23:785][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.41.23:785][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.41.23:786][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.41.23:791][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.03.23-14.41.23:876][378]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.03.23-14.41.25:156][531]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.23-14.41.25:173][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-14.41.25:173][531]PIE: New page: PIE 세션: Step4 (2022. 3. 24. 오전 8:41:25)
+[2022.03.23-14.41.25:220][531]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.41.25:223][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003219s)
+[2022.03.23-14.41.25:224][531]LogAIModule: Creating AISystem for world Step4
+[2022.03.23-14.41.25:224][531]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2022.03.23-14.41.25:224][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.004330s)
+[2022.03.23-14.41.25:237][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.03.23-14.41.25:237][531]ArenaBattle: Warning: UABGameInstance::Init(18) DropExp of Level 20 ABCharacter : 105
+[2022.03.23-14.41.25:237][531]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.03.23-14.41.25:237][531]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-14.41.25:237][531]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-14.41.25:237][531]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-14.41.25:237][531]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-14.41.25:237][531]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-14.41.25:238][531]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-14.41.25:238][531]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-14.41.25:238][531]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-14.41.25:238][531]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-14.41.25:238][531]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-14.41.25:238][531]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-14.41.25:238][531]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-14.41.25:241][531]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-14.41.25:241][531]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-14.41.25:253][531]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.23-14.41.25:253][531]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-14.41.25:253][531]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-14.41.25:253][531]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-14.41.25:253][531]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-14.41.25:254][531]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-14.41.25:254][531]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-14.41.25:255][531]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-14.41.25:255][531]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-14.41.25:255][531]LogInit: FAudioDevice initialized.
+[2022.03.23-14.41.25:255][531]LogAudio: Display: Audio Device (ID: 9) registered with world 'Step4'.
+[2022.03.23-14.41.25:266][531]LogLoad: Game class is 'ABGameMode'
+[2022.03.23-14.41.25:267][531]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2022.03.23-23.41.25
+[2022.03.23-14.41.25:267][531]LogWorld: Bringing up level for play took: 0.000966
+[2022.03.23-14.41.25:267][531]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.03.23-14.41.25:269][531]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(20)
+[2022.03.23-14.41.25:269][531]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.41.25:269][531]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.41.25:269][531]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.23-14.41.25:270][531]PIE: 서버가 로그인했습니다.
+[2022.03.23-14.41.25:271][531]PIE: 에디터에서 플레이 총 시작 시간 0.098초입니다.
+[2022.03.23-14.41.26:353][660]ArenaBattle: Warning: AABSection::OnTriggerBeginOverlap(152) OnTriggerBeginOverlap : Ready -> Battle 
+[2022.03.23-14.41.29:846][ 71]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.30:437][142]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.31:043][213]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.31:618][282]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.32:210][353]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.32:252][358]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.32:252][358]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.32:802][424]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.32:845][429]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.32:845][429]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.33:395][495]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.33:437][500]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.33:437][500]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.33:987][566]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.34:029][571]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.34:029][571]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.34:578][637]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.34:619][642]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.34:620][642]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.35:170][708]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.35:211][713]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.35:212][713]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.35:762][779]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.35:804][784]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.35:804][784]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.36:353][850]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.36:395][855]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.36:395][855]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.36:944][921]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.36:986][926]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.36:986][926]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.37:536][992]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.37:578][997]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.37:578][997]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.38:128][ 63]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.38:170][ 68]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.38:170][ 68]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.38:720][134]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.38:762][139]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.38:762][139]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.39:311][205]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.39:353][210]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.39:353][210]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.40:217][274]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.40:217][274]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.40:217][274]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.41:895][279]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.41:895][279]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.41:895][279]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.43:234][283]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.43:234][283]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.43:234][283]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.44:901][288]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.44:901][288]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.44:901][288]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.46:177][324]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.46:219][329]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.46:219][329]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.46:769][395]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.46:811][400]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.46:811][400]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.47:360][466]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.47:402][471]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.47:402][471]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.47:952][537]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.47:993][542]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.47:993][542]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.48:543][608]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.48:585][613]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.48:585][613]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.49:135][679]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.49:177][684]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.49:177][684]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.49:727][750]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.49:768][755]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.49:768][755]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.50:319][821]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.50:361][826]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.50:361][826]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.50:910][892]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.50:952][897]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.50:952][897]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.51:502][963]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.51:544][968]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.51:544][968]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.52:094][ 34]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.52:135][ 39]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.52:136][ 39]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.52:686][105]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.52:727][110]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.52:728][110]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.53:277][176]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.53:318][181]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.53:318][181]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.53:869][247]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.53:911][252]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.53:911][252]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.54:460][318]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.54:502][323]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.54:502][323]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.55:052][389]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.55:094][394]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.55:094][394]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.55:644][460]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.55:686][465]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.55:686][465]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.56:236][531]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.56:277][536]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.56:277][536]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.56:828][602]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.56:870][607]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.56:870][607]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.57:419][673]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.57:460][678]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.57:460][678]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.58:011][744]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.58:052][749]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.58:052][749]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.58:602][815]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.58:644][820]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.58:644][820]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.59:194][886]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.59:236][891]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.59:236][891]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.41.59:786][957]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.41.59:828][962]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.41.59:828][962]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.00:378][ 28]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.00:420][ 33]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.00:420][ 33]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.00:969][ 99]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.01:011][104]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.01:011][104]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.01:560][170]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.01:602][175]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.01:602][175]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.02:153][241]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.02:194][246]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.02:194][246]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.02:744][312]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.02:786][317]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.02:786][317]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.03:336][383]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.03:378][388]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.03:378][388]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.03:928][454]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.03:970][459]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.03:970][459]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.04:519][525]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.04:562][530]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.04:562][530]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.05:111][596]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.05:153][601]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.42.05:153][601]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.42.05:153][601]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_20f4036965adadfc6f19b51b03e92056>::operator ()(496) OnHPIsZero
+[2022.03.23-14.42.05:703][667]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.42.10:162][202]LogNet: Browse: /Game/Book/Maps/Step4?restart
+[2022.03.23-14.42.10:162][202]LogLoad: LoadMap: /Game/Book/Maps/Step4
+[2022.03.23-14.42.10:162][202]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.42.10:164][202]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-14.42.10:164][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.42.10:211][202]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.23-14.42.10:214][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.03.23-14.42.10:217][202]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.42.10:220][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003101s)
+[2022.03.23-14.42.10:221][202]LogAIModule: Creating AISystem for world Step4
+[2022.03.23-14.42.10:221][202]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2022.03.23-14.42.10:221][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.004157s)
+[2022.03.23-14.42.10:221][202]LogAudio: Display: Audio Device (ID: 9) registered with world 'Step4'.
+[2022.03.23-14.42.10:221][202]LogLoad: Game class is 'ABGameMode'
+[2022.03.23-14.42.10:222][202]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2022.03.23-23.42.10
+[2022.03.23-14.42.10:222][202]LogWorld: Bringing up level for play took: 0.000762
+[2022.03.23-14.42.10:223][202]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(20)
+[2022.03.23-14.42.10:223][202]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.03.23-14.42.10:223][202]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.42.10:223][202]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.42.10:224][202]LogLoad: Took 0.062260 seconds to LoadMap(/Game/Book/Maps/UEDPIE_0_Step4)
+[2022.03.23-14.44.35:287][832]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.23-14.44.48:156][347]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.03.23-14.50.43:741][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.50.43:741][747]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.50.43:742][747]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-14.50.43:742][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.50.43:754][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-14.50.43:758][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.50.43:770][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.50.43:770][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.50.43:771][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.50.43:777][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.03.23-14.50.44:117][748]LogPlayLevel: Display: Destroying online subsystem :Context_15
