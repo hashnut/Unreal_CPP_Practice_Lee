@@ -1323,3 +1323,360 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.23-14.16.17:915][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
 [2022.03.23-14.16.17:951][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_10
 [2022.03.23-14.16.19:448][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.03.23-14.31.12:971][ 56]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.23-14.31.13:010][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-14.31.13:010][ 56]PIE: New page: PIE 세션: Step4 (2022. 3. 24. 오전 8:31:13)
+[2022.03.23-14.31.13:040][ 56]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.31.13:044][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003926s)
+[2022.03.23-14.31.13:045][ 56]LogAIModule: Creating AISystem for world Step4
+[2022.03.23-14.31.13:047][ 56]LogPlayLevel: PIE: World Init took: (0.002886s)
+[2022.03.23-14.31.13:047][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.007097s)
+[2022.03.23-14.31.13:065][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.03.23-14.31.13:066][ 56]ArenaBattle: Warning: UABGameInstance::Init(18) DropExp of Level 20 ABCharacter : 105
+[2022.03.23-14.31.13:066][ 56]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.03.23-14.31.13:066][ 56]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-14.31.13:066][ 56]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-14.31.13:067][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-14.31.13:067][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-14.31.13:067][ 56]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-14.31.13:067][ 56]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-14.31.13:067][ 56]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-14.31.13:067][ 56]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-14.31.13:067][ 56]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-14.31.13:067][ 56]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-14.31.13:067][ 56]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-14.31.13:067][ 56]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-14.31.13:070][ 56]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-14.31.13:070][ 56]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-14.31.13:084][ 56]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.23-14.31.13:084][ 56]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-14.31.13:084][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-14.31.13:084][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-14.31.13:086][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-14.31.13:086][ 56]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-14.31.13:086][ 56]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-14.31.13:088][ 56]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-14.31.13:088][ 56]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-14.31.13:088][ 56]LogInit: FAudioDevice initialized.
+[2022.03.23-14.31.13:088][ 56]LogAudio: Display: Audio Device (ID: 5) registered with world 'Step4'.
+[2022.03.23-14.31.13:096][ 56]LogLoad: Game class is 'ABGameMode'
+[2022.03.23-14.31.13:098][ 56]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2022.03.23-23.31.13
+[2022.03.23-14.31.13:098][ 56]LogWorld: Bringing up level for play took: 0.001124
+[2022.03.23-14.31.13:098][ 56]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.03.23-14.31.13:099][ 56]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(19)
+[2022.03.23-14.31.13:099][ 56]ArenaBattle: Warning: AABPlayerController::OnPossess(24)
+[2022.03.23-14.31.13:099][ 56]ArenaBattle: Warning: AABPlayerController::OnPossess(24)
+[2022.03.23-14.31.13:100][ 56]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.23-14.31.13:100][ 56]PIE: 서버가 로그인했습니다.
+[2022.03.23-14.31.13:101][ 56]PIE: 에디터에서 플레이 총 시작 시간 0.092초입니다.
+[2022.03.23-14.31.14:541][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.31.14:541][223]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.31.14:541][223]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-14.31.14:542][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.31.14:549][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-14.31.14:555][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.31.14:571][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.31.14:571][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.31.14:573][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.31.14:579][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.03.23-14.31.14:609][224]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.03.23-14.32.10:109][650]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.23-14.32.10:126][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-14.32.10:126][650]PIE: New page: PIE 세션: Step4 (2022. 3. 24. 오전 8:32:10)
+[2022.03.23-14.32.10:126][650]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.32.10:129][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003289s)
+[2022.03.23-14.32.10:131][650]LogAIModule: Creating AISystem for world Step4
+[2022.03.23-14.32.10:131][650]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2022.03.23-14.32.10:131][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.004974s)
+[2022.03.23-14.32.10:147][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.03.23-14.32.10:148][650]ArenaBattle: Warning: UABGameInstance::Init(18) DropExp of Level 20 ABCharacter : 105
+[2022.03.23-14.32.10:148][650]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-14.32.10:148][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-14.32.10:148][650]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-14.32.10:148][650]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-14.32.10:149][650]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-14.32.10:149][650]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-14.32.10:149][650]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-14.32.10:152][650]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-14.32.10:152][650]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-14.32.10:166][650]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.23-14.32.10:166][650]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-14.32.10:166][650]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-14.32.10:166][650]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-14.32.10:166][650]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-14.32.10:166][650]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-14.32.10:166][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-14.32.10:168][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-14.32.10:168][650]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-14.32.10:168][650]LogInit: FAudioDevice initialized.
+[2022.03.23-14.32.10:168][650]LogAudio: Display: Audio Device (ID: 6) registered with world 'Step4'.
+[2022.03.23-14.32.10:180][650]LogLoad: Game class is 'ABGameMode'
+[2022.03.23-14.32.10:181][650]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2022.03.23-23.32.10
+[2022.03.23-14.32.10:182][650]LogWorld: Bringing up level for play took: 0.001233
+[2022.03.23-14.32.10:182][650]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.03.23-14.32.10:184][650]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(19)
+[2022.03.23-14.32.10:184][650]ArenaBattle: Warning: AABPlayerController::OnPossess(24)
+[2022.03.23-14.32.10:184][650]ArenaBattle: Warning: AABPlayerController::OnPossess(24)
+[2022.03.23-14.32.10:184][650]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.23-14.32.10:185][650]PIE: 서버가 로그인했습니다.
+[2022.03.23-14.32.10:186][650]PIE: 에디터에서 플레이 총 시작 시간 0.06초입니다.
+[2022.03.23-14.32.11:151][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.32.11:151][757]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.32.11:151][757]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-14.32.11:152][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.32.11:164][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-14.32.11:168][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.32.11:182][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.32.11:182][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.32.11:184][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.32.11:189][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.03.23-14.32.11:222][758]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.03.23-14.32.11:816][821]Candidate modules for hot reload:
+[2022.03.23-14.32.11:816][821]  ArenaBattle
+[2022.03.23-14.32.11:816][821]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,2378 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.03.23-14.32.11:819][821]Warning: Starting HotReload took  0.0s.
+[2022.03.23-14.32.19:696][935]CompilerResultsLog: New page: 컴파일 - 2022. 3. 24. 오전 8:32:19
+[2022.03.23-14.32.19:696][935]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup).
+[2022.03.23-14.32.19:696][935]CompilerResultsLog: Creating makefile for ArenaBattleEditor (no existing makefile)
+[2022.03.23-14.32.19:696][935]CompilerResultsLog: ERROR: Circular dependency on ArenaBattleSetting.Build.cs detected.
+[2022.03.23-14.32.19:696][935]CompilerResultsLog:         Full Route: Target -> ArenaBattle.Build.cs -> ArenaBattleSetting.Build.cs -> ArenaBattleSetting.Build.cs
+[2022.03.23-14.32.19:696][935]CompilerResultsLog:         Cycled Route: is ArenaBattle -> ArenaBattleSetting -> ArenaBattleSetting.
+[2022.03.23-14.32.19:696][935]CompilerResultsLog:        Break this loop by moving dependencies into a separate module or using Private/PublicIncludePathModuleNames to reference declarations
+[2022.03.23-14.32.19:696][935]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.03.23-14.32.19:696][935]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.23-14.32.19:697][935]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.23-14.32.19:697][935]CompilerResultsLog: Error: D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/Source/ArenaBattle/Public/ABPlayerController.h(41)  : Error: Unexpected '}'. Did you miss a semi-colon?
+[2022.03.23-14.32.19:697][935]LogMainFrame: MainFrame: Module compiling took 7.884 seconds
+[2022.03.23-14.32.19:697][935]Warning: HotReload failed, recompile failed
+[2022.03.23-14.32.36:319][251]Candidate modules for hot reload:
+[2022.03.23-14.32.36:319][251]  ArenaBattle
+[2022.03.23-14.32.36:319][251]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,7753 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.03.23-14.32.36:322][251]Warning: Starting HotReload took  0.0s.
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: New page: 컴파일 - 2022. 3. 24. 오전 8:32:49
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup).
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Creating makefile for ArenaBattleEditor (no existing makefile)
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: ERROR: Circular dependency on ArenaBattleSetting.Build.cs detected.
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:         Full Route: Target -> ArenaBattle.Build.cs -> ArenaBattleSetting.Build.cs -> ArenaBattleSetting.Build.cs
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:         Cycled Route: is ArenaBattle -> ArenaBattleSetting -> ArenaBattleSetting.
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:        Break this loop by moving dependencies into a separate module or using Private/PublicIncludePathModuleNames to reference declarations
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 4.8354412 seconds
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:   [1/9] UE4Editor-ArenaBattleSetting-0004.lib
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0004.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0004.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:   [2/9] UE4Editor-ArenaBattleSetting-0004.dll
+[2022.03.23-14.32.49:534][ 15]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0004.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0004.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.32.49:534][ 15]LogMainFrame: MainFrame: Module compiling took 13.219 seconds
+[2022.03.23-14.32.49:535][ 15]Warning: HotReload failed, recompile failed
+[2022.03.23-14.32.50:536][131]Candidate modules for hot reload:
+[2022.03.23-14.32.50:536][131]  ArenaBattle
+[2022.03.23-14.32.50:536][131]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,1731 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.03.23-14.32.50:538][131]Warning: Starting HotReload took  0.0s.
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: New page: 컴파일 - 2022. 3. 24. 오전 8:32:56
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup).
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.03.23-14.32.56:538][409]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 4.4146456 seconds
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.23-14.32.56:538][409]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.03.23-14.32.56:538][409]LogMainFrame: MainFrame: Module compiling took 6.006 seconds
+[2022.03.23-14.32.56:538][409]Warning: HotReload failed, recompile failed
+[2022.03.23-14.32.58:347][618]Candidate modules for hot reload:
+[2022.03.23-14.32.58:347][618]  ArenaBattle
+[2022.03.23-14.32.58:348][618]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,0008 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.03.23-14.32.58:350][618]Warning: Starting HotReload took  0.0s.
+[2022.03.23-14.34.05:574][  7]CompilerResultsLog: New page: 컴파일 - 2022. 3. 24. 오전 8:34:05
+[2022.03.23-14.34.05:574][  7]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup).
+[2022.03.23-14.34.05:574][  7]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   [1/9] UE4Editor-ArenaBattleSetting-0006.lib
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   [2/9] UE4Editor-ArenaBattleSetting-0006.dll
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0006.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   [3/9] ABPlayerController.gen.cpp
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle/Public/ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle/Public/ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   [4/9] ABGameMode.cpp
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   [5/9] ABPlayerController.cpp
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Private\ABPlayerController.cpp(14) : error C2059: ???? ????: '<<'
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   [6/9] ABCharacter.cpp
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.05:575][  7]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.05:575][  7]LogMainFrame: MainFrame: Module compiling took 67.232 seconds
+[2022.03.23-14.34.05:575][  7]Warning: HotReload failed, recompile failed
+[2022.03.23-14.34.33:236][133]Candidate modules for hot reload:
+[2022.03.23-14.34.33:236][133]  ArenaBattle
+[2022.03.23-14.34.33:236][133]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,1413 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.03.23-14.34.33:239][133]Warning: Starting HotReload took  0.0s.
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: New page: 컴파일 - 2022. 3. 24. 오전 8:34:44
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup).
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.03.23-14.34.44:316][307]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 4.1280103 seconds
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.23-14.34.44:316][307]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.03.23-14.34.44:316][307]CompilerResultsLog:   [1/9] UE4Editor-ArenaBattleSetting-0007.lib
+[2022.03.23-14.34.44:316][307]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0007.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0007.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.34.44:316][307]CompilerResultsLog:   [2/9] UE4Editor-ArenaBattleSetting-0007.dll
+[2022.03.23-14.34.44:316][307]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0007.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0007.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.34.44:316][307]CompilerResultsLog:   [3/9] ABPlayerController.gen.cpp
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle/Public/ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle/Public/ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   [4/9] ABGameMode.cpp
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   [5/9] ABPlayerController.cpp
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   [6/9] ABCharacter.cpp
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:    D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(23) : error C2535: 'AABPlayerController::AABPlayerController(void)': ???? ?Լ??? ?̹? ?????߰ų? ?????߽??ϴ?.
+[2022.03.23-14.34.44:317][307]CompilerResultsLog:   D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h(19): note: 'AABPlayerController::AABPlayerController' ?????? ?????Ͻʽÿ?.
+[2022.03.23-14.34.44:317][307]LogMainFrame: MainFrame: Module compiling took 11.084 seconds
+[2022.03.23-14.34.44:317][307]Warning: HotReload failed, recompile failed
+[2022.03.23-14.35.05:741][ 70]Candidate modules for hot reload:
+[2022.03.23-14.35.05:741][ 70]  ArenaBattle
+[2022.03.23-14.35.05:742][ 70]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,9946 ArenaBattleEditor Win64 Development -Project="D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject" "D:/OneDrive - SNU/github/CPP_Portfolio_2022_Backup/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.03.23-14.35.05:744][ 70]Warning: Starting HotReload took  0.0s.
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: New page: 컴파일 - 2022. 3. 24. 오전 8:35:43
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup).
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   Running UnrealHeaderTool "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\ArenaBattle.uproject" "D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ejrrb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 4.569085 seconds
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.23-14.35.43:963][520]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [1/9] UE4Editor-ArenaBattleSetting-0008.lib
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0008.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0008.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [2/9] UE4Editor-ArenaBattleSetting-0008.dll
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0008.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0008.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [3/9] ABGameMode.cpp
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [4/9] ABPlayerController.gen.cpp
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [5/9] ABPlayerController.cpp
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [6/9] ABCharacter.cpp
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [7/9] UE4Editor-ArenaBattle-9946.lib
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9946.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9946.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [8/9] UE4Editor-ArenaBattle-9946.dll
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:      D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9946.suppressed.lib ???̺귯?? ?? D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9946.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.03.23-14.35.43:963][520]CompilerResultsLog:   [9/9] ArenaBattleEditor.target
+[2022.03.23-14.35.43:964][520]CompilerResultsLog:   WARNING: Unable to read 'D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Binaries\Win64\UE4Editor.modules'; ignoring.
+[2022.03.23-14.35.43:964][520]CompilerResultsLog: Total time in Parallel executor: 31.06 seconds
+[2022.03.23-14.35.43:964][520]CompilerResultsLog: Total execution time: 37.80 seconds
+[2022.03.23-14.35.43:964][520]LogMainFrame: MainFrame: Module compiling took 38.226 seconds
+[2022.03.23-14.35.44:059][520]LogClass: ECharacterState HotReload.
+[2022.03.23-14.35.44:059][520]LogClass: ABCharacterData HotReload.
+[2022.03.23-14.35.44:067][520]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.03.23-14.35.44:101][520]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0004 seconds. Added 22 classes and 2 folders.
+[2022.03.23-14.35.44:111][520]Display: HotReload successful (7 functions remapped  1 scriptstructs remapped)
+[2022.03.23-14.35.44:191][520]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0115 seconds. Added 3845 classes and 933 folders.
+[2022.03.23-14.35.44:191][520]Display: HotReload took 38.5s.
+[2022.03.23-14.37.18:029][800]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.03.23-14.37.18:048][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-14.37.18:048][800]PIE: New page: PIE 세션: Step4 (2022. 3. 24. 오전 8:37:18)
+[2022.03.23-14.37.18:049][800]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.37.18:052][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003266s)
+[2022.03.23-14.37.18:053][800]LogAIModule: Creating AISystem for world Step4
+[2022.03.23-14.37.18:053][800]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2022.03.23-14.37.18:053][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.004404s)
+[2022.03.23-14.37.18:113][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.03.23-14.37.18:114][800]ArenaBattle: Warning: UABGameInstance::Init(18) DropExp of Level 20 ABCharacter : 105
+[2022.03.23-14.37.18:114][800]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-14.37.18:114][800]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-14.37.18:114][800]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-14.37.18:115][800]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-14.37.18:115][800]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-14.37.18:115][800]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-14.37.18:115][800]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-14.37.18:118][800]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-14.37.18:118][800]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-14.37.18:131][800]LogAudioMixer: Display: Using Audio Device 페블스피커(Realtek High Definition Audio)
+[2022.03.23-14.37.18:132][800]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-14.37.18:132][800]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-14.37.18:132][800]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-14.37.18:132][800]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-14.37.18:132][800]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-14.37.18:132][800]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-14.37.18:134][800]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-14.37.18:134][800]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-14.37.18:134][800]LogInit: FAudioDevice initialized.
+[2022.03.23-14.37.18:135][800]LogAudio: Display: Audio Device (ID: 7) registered with world 'Step4'.
+[2022.03.23-14.37.18:143][800]LogLoad: Game class is 'ABGameMode'
+[2022.03.23-14.37.18:144][800]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 0) at 2022.03.23-23.37.18
+[2022.03.23-14.37.18:145][800]LogWorld: Bringing up level for play took: 0.001311
+[2022.03.23-14.37.18:145][800]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.03.23-14.37.18:147][800]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(20)
+[2022.03.23-14.37.18:147][800]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.37.18:147][800]ArenaBattle: Warning: AABPlayerController::OnPossess(25)
+[2022.03.23-14.37.18:147][800]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.03.23-14.37.18:148][800]PIE: 서버가 로그인했습니다.
+[2022.03.23-14.37.18:149][800]PIE: 에디터에서 플레이 총 시작 시간 0.101초입니다.
+[2022.03.23-14.37.18:920][891]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.19:636][977]ArenaBattle: Warning: AABSection::OnTriggerBeginOverlap(152) OnTriggerBeginOverlap : Ready -> Battle 
+[2022.03.23-14.37.19:862][  4]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.21:529][204]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.24:666][569]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.24:708][574]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.37.24:708][574]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.37.24:770][581]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.24:803][583]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.37.24:803][583]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.37.25:271][639]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.25:312][644]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.37.25:312][644]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.37.25:354][649]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.25:396][654]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.37.25:396][654]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.37.25:949][720]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.25:982][724]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.25:991][725]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.37.25:991][725]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.37.26:023][729]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.37.26:023][729]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.37.26:530][790]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.26:572][795]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.37.26:572][795]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.37.26:930][838]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.26:972][843]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_0
+[2022.03.23-14.37.26:972][843]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_0 took Damage : 30.000000 
+[2022.03.23-14.37.26:972][843]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_20f4036965adadfc6f19b51b03e92056>::operator ()(496) OnHPIsZero
+[2022.03.23-14.37.27:122][861]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_4e4ad17667f62ddd011ff6abc137d623>::operator ()(483) OnNextAttackCheck
+[2022.03.23-14.37.27:164][866]ArenaBattle: Warning: AABCharacter::AttackCheck(546) Hit Actor Name : ABCharacter_8
+[2022.03.23-14.37.27:164][866]ArenaBattle: Warning: AABCharacter::TakeDamage(558) Actor : ABCharacter_8 took Damage : 10.000000 
+[2022.03.23-14.37.33:070][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.37.33:070][571]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step4
+[2022.03.23-14.37.33:071][571]LogWorld: UWorld::CleanupWorld for Step4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-14.37.33:071][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.37.33:077][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-14.37.33:082][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-14.37.33:096][571]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.23-14.37.33:098][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.37.33:100][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-14.37.33:104][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-14.37.33:134][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.03.23-14.37.33:163][572]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.03.23-14.37.35:757][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms

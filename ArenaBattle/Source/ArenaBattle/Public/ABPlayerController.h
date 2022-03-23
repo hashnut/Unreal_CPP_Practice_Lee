@@ -13,16 +13,11 @@ UCLASS()
 class ARENABATTLE_API AABPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-<<<<<<< HEAD
-	
-public:
-	AABPlayerController();
-	
-=======
-public:
-	AABPlayerController();
 
->>>>>>> c3e0fac3c41fef62cdb0536010944aac78b63022
+	
+public:
+	AABPlayerController();
+	
 	virtual void PostInitializeComponents() override;
 	virtual void OnPossess(APawn* aPawn) override;
 
@@ -37,8 +32,5 @@ protected:
 private:
 	UPROPERTY()
 	class UABHUDWidget* HUDWidget;
-<<<<<<< HEAD
+
 };
-=======
-}; 
->>>>>>> c3e0fac3c41fef62cdb0536010944aac78b63022
