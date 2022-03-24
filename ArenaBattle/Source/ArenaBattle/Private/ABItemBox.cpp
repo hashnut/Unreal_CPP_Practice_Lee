@@ -1,4 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+
+
 #include "ABItemBox.h"
 #include "ABWeapon.h"
 #include "ABCharacter.h"
@@ -6,8 +8,7 @@
 // Sets default values
 AABItemBox::AABItemBox()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 	Trigger = CreateDefaultSubobject<UBoxComponent>(TEXT("TRIGGER"));
 	Box = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BOX"));
@@ -43,14 +44,6 @@ AABItemBox::AABItemBox()
 void AABItemBox::BeginPlay()
 {
 	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void AABItemBox::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
 }
 
 void AABItemBox::PostInitializeComponents()
@@ -79,13 +72,13 @@ void AABItemBox::OnCharacterOverlap(UPrimitiveComponent* OverlappedComp, AActor*
 		}
 		else
 		{
-			ABLOG(Warning, TEXT("%s can't equip weapon currently."), *ABCharacter->GetName());
+			ABLOG(Warning, TEXT("%s can't equip weapon currently"), *ABCharacter->GetName());
 		}
 	}
-
 }
 
-void AABItemBox::OnEffectFinished(UParticleSystemComponent* PSystem)
+void AABItemBox::OnEffectFinished(class UParticleSystemComponent* PSystem)
 {
 	Destroy();
 }
+

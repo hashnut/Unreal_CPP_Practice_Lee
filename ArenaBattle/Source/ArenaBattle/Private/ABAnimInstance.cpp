@@ -6,23 +6,22 @@
 UABAnimInstance::UABAnimInstance()
 {
 	CurrentPawnSpeed = 0.0f;
-
-	static ConstructorHelpers::FObjectFinder<UAnimMontage> ATTACK_MONTAGE(TEXT("/Game/Book/Animations/SK_Mannequin_Skeleton_Montage.SK_Mannequin_Skeleton_Montage"));
+	IsInAir = false;
+	IsDead = false;
+	static ConstructorHelpers::FObjectFinder<UAnimMontage>ATTACK_MONTAGE(TEXT("/Game/Book/Animations/SK_Mannequin_Skeleton_Montage.SK_Mannequin_Skeleton_Montage"));
 	if (ATTACK_MONTAGE.Succeeded())
 	{
 		AttackMontage = ATTACK_MONTAGE.Object;
 	}
-
-	IsDead = false;
 }
-
 
 void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 {
 	Super::NativeUpdateAnimation(DeltaSeconds);
 
 	auto Pawn = TryGetPawnOwner();
-	if (!::IsValid(Pawn)) return;
+	if (!::IsValid(Pawn))
+		return;
 
 	if (!IsDead)
 	{
@@ -37,19 +36,15 @@ void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 
 void UABAnimInstance::PlayAttackMontage()
 {
-	//if (!Montage_IsPlaying(AttackMontage))
-	//{
-	//	Montage_Play(AttackMontage, 1.0f);
-	//}
 	ABCHECK(!IsDead);
-	Montage_Play(AttackMontage, 1.0f);
+	Montage_Play(AttackMontage, 0.6f);
 }
 
 void UABAnimInstance::JumpToAttackMontageSection(int32 NewSection)
 {
 	ABCHECK(!IsDead);
 	ABCHECK(Montage_IsPlaying(AttackMontage));
-	Montage_JumpToSection(GetAttackMontageSectionName(NewSection), AttackMontage);
+	Montage_JumpToSection(GetAttackMontageSectionName(NewSection));
 }
 
 void UABAnimInstance::AnimNotify_AttackHitCheck()
@@ -67,5 +62,3 @@ FName UABAnimInstance::GetAttackMontageSectionName(int32 Section)
 	ABCHECK(FMath::IsWithinInclusive<int32>(Section, 1, 4), NAME_None);
 	return FName(*FString::Printf(TEXT("Attack%d"), Section));
 }
-
-

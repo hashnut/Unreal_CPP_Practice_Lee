@@ -1,5 +1,5 @@
-D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-D:\OneDrive - SNU\github\CPP_Portfolio_2022_Backup\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
+D:\OneDrive - SNU\github\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
+D:\OneDrive - SNU\github\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h

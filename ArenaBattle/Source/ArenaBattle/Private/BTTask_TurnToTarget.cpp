@@ -1,9 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+
 #include "BTTask_TurnToTarget.h"
 #include "ABAIController.h"
 #include "ABCharacter.h"
 #include "BehaviorTree/BlackboardComponent.h"
+
 
 UBTTask_TurnToTarget::UBTTask_TurnToTarget()
 {
@@ -26,6 +28,6 @@ EBTNodeResult::Type UBTTask_TurnToTarget::ExecuteTask(UBehaviorTreeComponent& Ow
 	LookVector.Z = 0.0f;
 	FRotator TargetRot = FRotationMatrix::MakeFromX(LookVector).Rotator();
 	ABCharacter->SetActorRotation(FMath::RInterpTo(ABCharacter->GetActorRotation(), TargetRot, GetWorld()->GetDeltaSeconds(), 2.0f));
-
+	
 	return EBTNodeResult::Succeeded;
 }

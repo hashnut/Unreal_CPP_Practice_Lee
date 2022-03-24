@@ -240,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_Box = { "Box", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABItemBox, Box), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABItemBox_Statics::NewProp_Box_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_Box_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect_MetaData[] = {
-		{ "Category", "Box" },
+		{ "Category", "Effect" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/ABItemBox.h" },
 	};
@@ -286,7 +286,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABItemBox, 340269691);
+	IMPLEMENT_CLASS(AABItemBox, 1634843194);
 	template<> ARENABATTLE_API UClass* StaticClass<AABItemBox>()
 	{
 		return AABItemBox::StaticClass();

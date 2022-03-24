@@ -183,7 +183,6 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABGameInstance_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "ABGameInstance.h" },
 		{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 	};
@@ -224,7 +223,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABGameInstance, 3250278683);
+	IMPLEMENT_CLASS(UABGameInstance, 452315339);
 	template<> ARENABATTLE_API UClass* StaticClass<UABGameInstance>()
 	{
 		return UABGameInstance::StaticClass();

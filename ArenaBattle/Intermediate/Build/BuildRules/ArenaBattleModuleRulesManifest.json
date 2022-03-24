@@ -1,9 +1,9 @@
 {
 	"SourceFiles": [
-		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022_Backup\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
-		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022_Backup\\ArenaBattle\\Source\\ArenaBattleSetting\\ArenaBattleSetting.Build.cs",
-		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022_Backup\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
-		"D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022_Backup\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs"
+		"D:\\OneDrive - SNU\\github\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
+		"D:\\OneDrive - SNU\\github\\ArenaBattle\\Source\\ArenaBattleSetting\\ArenaBattleSetting.Build.cs",
+		"D:\\OneDrive - SNU\\github\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
+		"D:\\OneDrive - SNU\\github\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 	UPackage* Z_Construct_UPackage__Script_ArenaBattle();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABHUDWidget_NoRegister();
+	ARENABATTLE_API UClass* Z_Construct_UClass_AABPlayerState_NoRegister();
 // End Cross Module References
 	void AABPlayerController::StaticRegisterNativesAABPlayerController()
 	{
@@ -41,6 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HUDWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABPlayerState_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABPlayerState;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -71,9 +76,16 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPlayerController_Statics::NewProp_HUDWidget = { "HUDWidget", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPlayerController, HUDWidget), Z_Construct_UClass_UABHUDWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPlayerController_Statics::NewProp_HUDWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerController_Statics::NewProp_HUDWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerController_Statics::NewProp_ABPlayerState_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ABPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPlayerController_Statics::NewProp_ABPlayerState = { "ABPlayerState", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPlayerController, ABPlayerState), Z_Construct_UClass_AABPlayerState_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPlayerController_Statics::NewProp_ABPlayerState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerController_Statics::NewProp_ABPlayerState_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABPlayerController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerController_Statics::NewProp_HUDWidgetClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerController_Statics::NewProp_HUDWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerController_Statics::NewProp_ABPlayerState,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABPlayerController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABPlayerController>::IsAbstract,
@@ -102,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPlayerController, 1400787683);
+	IMPLEMENT_CLASS(AABPlayerController, 426640141);
 	template<> ARENABATTLE_API UClass* StaticClass<AABPlayerController>()
 	{
 		return AABPlayerController::StaticClass();

@@ -17,21 +17,11 @@ AABWeapon::AABWeapon()
 	{
 		Weapon->SetSkeletalMesh(SK_WEAPON.Object);
 	}
-
 	Weapon->SetCollisionProfileName(TEXT("NoCollision"));
 }
 
 // Called when the game starts or when spawned
 void AABWeapon::BeginPlay()
 {
-	Super::BeginPlay();
-	
+	Super::BeginPlay();	
 }
-
-// Called every frame
-void AABWeapon::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-

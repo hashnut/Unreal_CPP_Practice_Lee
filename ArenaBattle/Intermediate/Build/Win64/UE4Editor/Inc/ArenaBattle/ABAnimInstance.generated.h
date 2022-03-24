@@ -13,20 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARENABATTLE_ABAnimInstance_generated_h
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_SPARSE_DATA
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_RPC_WRAPPERS \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_SPARSE_DATA
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execAnimNotify_NextAttackCheck); \
 	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck);
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execAnimNotify_NextAttackCheck); \
 	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck);
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_INCLASS_NO_PURE_DECLS \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUABAnimInstance(); \
 	friend struct Z_Construct_UClass_UABAnimInstance_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UABAnimInstance)
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_INCLASS \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUABAnimInstance(); \
 	friend struct Z_Construct_UClass_UABAnimInstance_Statics; \
@@ -44,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(UABAnimInstance)
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_STANDARD_CONSTRUCTORS \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UABAnimInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABAnimInstance) \
@@ -57,7 +57,7 @@ private: \
 public:
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_ENHANCED_CONSTRUCTORS \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UABAnimInstance(UABAnimInstance&&); \
@@ -68,34 +68,34 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UABAnimInstance)
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UABAnimInstance, CurrentPawnSpeed); } \
 	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(UABAnimInstance, IsInAir); } \
 	FORCEINLINE static uint32 __PPO__IsDead() { return STRUCT_OFFSET(UABAnimInstance, IsDead); } \
 	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UABAnimInstance, AttackMontage); }
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_15_PROLOG
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_GENERATED_BODY_LEGACY \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_14_PROLOG
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_SPARSE_DATA \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_RPC_WRAPPERS \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_INCLASS \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_STANDARD_CONSTRUCTORS \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_SPARSE_DATA \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_RPC_WRAPPERS \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_INCLASS \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_GENERATED_BODY \
+#define ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_PRIVATE_PROPERTY_OFFSET \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_SPARSE_DATA \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_INCLASS_NO_PURE_DECLS \
-	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_18_ENHANCED_CONSTRUCTORS \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_SPARSE_DATA \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_INCLASS_NO_PURE_DECLS \
+	ArenaBattle_Source_ArenaBattle_Public_ABAnimInstance_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

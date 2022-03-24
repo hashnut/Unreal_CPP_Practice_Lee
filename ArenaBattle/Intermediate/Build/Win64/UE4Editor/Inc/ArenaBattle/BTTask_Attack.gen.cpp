@@ -40,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_Attack() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_Attack_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n *\n */" },
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "BTTask_Attack.h" },
 		{ "ModuleRelativePath", "Public/BTTask_Attack.h" },
 	};
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_Attack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_Attack, 3216116973);
+	IMPLEMENT_CLASS(UBTTask_Attack, 3443385312);
 	template<> ARENABATTLE_API UClass* StaticClass<UBTTask_Attack>()
 	{
 		return UBTTask_Attack::StaticClass();

@@ -59,9 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeABAIController() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABAIController_Statics::NewProp_BTAsset_MetaData[] = {
-		{ "Comment", "//FTimerHandle RepeatTimerHandle;\n//float RepeatInterval;\n" },
 		{ "ModuleRelativePath", "Public/ABAIController.h" },
-		{ "ToolTip", "FTimerHandle RepeatTimerHandle;\nfloat RepeatInterval;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABAIController_Statics::NewProp_BTAsset = { "BTAsset", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABAIController, BTAsset), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABAIController_Statics::NewProp_BTAsset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABAIController_Statics::NewProp_BTAsset_MetaData)) };
@@ -102,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeABAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABAIController, 3655611959);
+	IMPLEMENT_CLASS(AABAIController, 2183803867);
 	template<> ARENABATTLE_API UClass* StaticClass<AABAIController>()
 	{
 		return AABAIController::StaticClass();

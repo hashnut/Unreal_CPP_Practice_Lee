@@ -21,17 +21,13 @@ protected:
 	virtual void PostInitializeComponents() override;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-public:
 	UPROPERTY(VisibleAnywhere, Category = Box)
 	UBoxComponent* Trigger;
 
 	UPROPERTY(VisibleAnywhere, Category = Box)
 	UStaticMeshComponent* Box;
 
-	UPROPERTY(VisibleAnywhere, Category = Box)
+	UPROPERTY(VisibleAnywhere, Category = Effect)
 	UParticleSystemComponent* Effect;
 
 	UPROPERTY(EditInstanceOnly, Category = Box)

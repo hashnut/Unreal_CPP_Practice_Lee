@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+
 #include "BTTask_Attack.h"
 #include "ABAIController.h"
 #include "ABCharacter.h"
@@ -22,7 +23,7 @@ EBTNodeResult::Type UBTTask_Attack::ExecuteTask(UBehaviorTreeComponent& OwnerCom
 	IsAttacking = true;
 	ABCharacter->OnAttackEnd.AddLambda([this]() -> void {
 		IsAttacking = false;
-		});
+	});
 
 	return EBTNodeResult::InProgress;
 }

@@ -105,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPawn, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPawn_Statics::NewProp_SpringArm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPawn_Statics::NewProp_Camera_MetaData[] = {
-		{ "Category", "Camera" },
+		{ "Category", "Collision" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/ABPawn.h" },
 	};
@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeABPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPawn, 821641639);
+	IMPLEMENT_CLASS(AABPawn, 1500004443);
 	template<> ARENABATTLE_API UClass* StaticClass<AABPawn>()
 	{
 		return AABPawn::StaticClass();

@@ -60,7 +60,8 @@ public: \
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(AABPlayerController, HUDWidgetClass); } \
-	FORCEINLINE static uint32 __PPO__HUDWidget() { return STRUCT_OFFSET(AABPlayerController, HUDWidget); }
+	FORCEINLINE static uint32 __PPO__HUDWidget() { return STRUCT_OFFSET(AABPlayerController, HUDWidget); } \
+	FORCEINLINE static uint32 __PPO__ABPlayerState() { return STRUCT_OFFSET(AABPlayerController, ABPlayerState); }
 
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABPlayerController_h_12_PROLOG

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ArenaBattle",
-			"Path": "D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022_Backup\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
+			"Path": "D:\\OneDrive - SNU\\github\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ArenaBattleEditor",
-			"Path": "D:\\OneDrive - SNU\\github\\CPP_Portfolio_2022_Backup\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs",
+			"Path": "D:\\OneDrive - SNU\\github\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

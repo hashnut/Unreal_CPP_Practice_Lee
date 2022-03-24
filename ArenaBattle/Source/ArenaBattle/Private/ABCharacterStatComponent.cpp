@@ -20,10 +20,8 @@ UABCharacterStatComponent::UABCharacterStatComponent()
 void UABCharacterStatComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
-	
 }
+
 
 void UABCharacterStatComponent::InitializeComponent()
 {
@@ -40,6 +38,7 @@ void UABCharacterStatComponent::SetNewLevel(int32 NewLevel)
 	if (nullptr != CurrentStatData)
 	{
 		Level = NewLevel;
+		//CurrentHP = CurrentStatData->MaxHP;
 		SetHP(CurrentStatData->MaxHP);
 	}
 	else
@@ -65,24 +64,21 @@ void UABCharacterStatComponent::SetHP(float NewHP)
 	}
 }
 
-float UABCharacterStatComponent::GetAttack()
+float UABCharacterStatComponent::GetAttack() const
 {
 	ABCHECK(nullptr != CurrentStatData, 0.0f);
 	return CurrentStatData->Attack;
 }
 
-float UABCharacterStatComponent::GetHPRatio()
+float UABCharacterStatComponent::GetHPRatio() const
 {
 	ABCHECK(nullptr != CurrentStatData, 0.0f);
 
 	return (CurrentStatData->MaxHP < KINDA_SMALL_NUMBER) ? 0.0f : (CurrentHP / CurrentStatData->MaxHP);
+
 }
 
-// Called every frame
-void UABCharacterStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+int32 UABCharacterStatComponent::GetDropExp() const
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
+	return CurrentStatData->DropExp;
 }
-

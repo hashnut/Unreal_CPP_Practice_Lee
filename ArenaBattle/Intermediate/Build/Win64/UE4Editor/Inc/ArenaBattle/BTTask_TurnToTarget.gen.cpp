@@ -40,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_TurnToTarget_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n *\n */" },
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "BTTask_TurnToTarget.h" },
 		{ "ModuleRelativePath", "Public/BTTask_TurnToTarget.h" },
 	};
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_TurnToTarget, 3467243288);
+	IMPLEMENT_CLASS(UBTTask_TurnToTarget, 3837142059);
 	template<> ARENABATTLE_API UClass* StaticClass<UBTTask_TurnToTarget>()
 	{
 		return UBTTask_TurnToTarget::StaticClass();

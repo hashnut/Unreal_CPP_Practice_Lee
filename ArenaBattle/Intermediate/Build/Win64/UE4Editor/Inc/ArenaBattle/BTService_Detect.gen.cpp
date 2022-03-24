@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeBTService_Detect() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTService_Detect_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "BTService_Detect.h" },
 		{ "ModuleRelativePath", "Public/BTService_Detect.h" },
 	};
@@ -72,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBTService_Detect() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTService_Detect, 738662086);
+	IMPLEMENT_CLASS(UBTService_Detect, 1644090277);
 	template<> ARENABATTLE_API UClass* StaticClass<UBTService_Detect>()
 	{
 		return UBTService_Detect::StaticClass();

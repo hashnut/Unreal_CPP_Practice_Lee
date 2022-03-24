@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "ABHUDWidget.h"
 #include "Components/ProgressBar.h"
 #include "Components/TextBlock.h"
@@ -18,13 +17,12 @@ void UABHUDWidget::BindPlayerState(AABPlayerState* PlayerState)
 {
 	ABCHECK(nullptr != PlayerState);
 	CurrentPlayerState = PlayerState;
-	PlayerState->OnPlayerStateChanged.AddUObject(this, &UABHUDWidget::UpdateCharacterStat);
+	PlayerState->OnPlayerStateChanged.AddUObject(this, &UABHUDWidget::UpdatePlayerState);
 }
 
 void UABHUDWidget::NativeConstruct()
 {
 	Super::NativeConstruct();
-	
 	HPBar = Cast<UProgressBar>(GetWidgetFromName(TEXT("pbHP")));
 	ABCHECK(nullptr != HPBar);
 
@@ -47,6 +45,7 @@ void UABHUDWidget::NativeConstruct()
 void UABHUDWidget::UpdateCharacterStat()
 {
 	ABCHECK(CurrentCharacterStat.IsValid());
+
 	HPBar->SetPercent(CurrentCharacterStat->GetHPRatio());
 }
 
@@ -54,9 +53,8 @@ void UABHUDWidget::UpdatePlayerState()
 {
 	ABCHECK(CurrentPlayerState.IsValid());
 
+	ExpBar->SetPercent(CurrentPlayerState->GetExpRatio());
 	PlayerName->SetText(FText::FromString(CurrentPlayerState->GetPlayerName()));
 	PlayerLevel->SetText(FText::FromString(FString::FromInt(CurrentPlayerState->GetCharacterLevel())));
 	CurrentScore->SetText(FText::FromString(FString::FromInt(CurrentPlayerState->GetGameScore())));
 }
-
-

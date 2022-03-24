@@ -17,25 +17,21 @@ public:
 	FABCharacterData() : Level(1), MaxHP(100.0f), Attack(10.0f), DropExp(10), NextExp(30) {}
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		int32 Level;
+	int32 Level;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		float MaxHP;
+	float MaxHP;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		float Attack;
+	float Attack;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		int32 DropExp;
+	int32 DropExp;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		int32 NextExp;
+	int32 NextExp;
 };
 
-
-/**
- * 
- */
 UCLASS()
 class ARENABATTLE_API UABGameInstance : public UGameInstance
 {
@@ -43,6 +39,7 @@ class ARENABATTLE_API UABGameInstance : public UGameInstance
 	
 public:
 	UABGameInstance();
+
 	virtual void Init() override;
 	FABCharacterData* GetABCharacterData(int32 Level);
 

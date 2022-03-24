@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+
 #include "BTTask_FindPatrolPos.h"
 #include "ABAIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
@@ -16,7 +17,9 @@ EBTNodeResult::Type UBTTask_FindPatrolPos::ExecuteTask(UBehaviorTreeComponent& O
 
 	auto ControllingPawn = OwnerComp.GetAIOwner()->GetPawn();
 	if (nullptr == ControllingPawn)
+	{
 		return EBTNodeResult::Failed;
+	}
 
 	UNavigationSystemV1* NavSystem = UNavigationSystemV1::GetNavigationSystem(ControllingPawn->GetWorld());
 	if (nullptr == NavSystem)
@@ -30,6 +33,6 @@ EBTNodeResult::Type UBTTask_FindPatrolPos::ExecuteTask(UBehaviorTreeComponent& O
 		OwnerComp.GetBlackboardComponent()->SetValueAsVector(AABAIController::PatrolPosKey, NextPatrol.Location);
 		return EBTNodeResult::Succeeded;
 	}
-
 	return EBTNodeResult::Failed;
 }
+

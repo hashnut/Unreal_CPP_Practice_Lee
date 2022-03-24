@@ -18,6 +18,7 @@ public:
 	AABCharacter();
 	void SetCharacterState(ECharacterState NewState);
 	ECharacterState GetCharacterState() const;
+	int32 GetExp() const;
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,43 +26,37 @@ protected:
 
 	enum class EControlMode
 	{
-		GTA,
-		DIABLO,
+		Shoulder,
+		Quarter,
 		NPC
 	};
 
 	void SetControlMode(EControlMode NewControlMode);
-	EControlMode CurrentControlMode = EControlMode::GTA;
+	EControlMode CurrentControlMode = EControlMode::Shoulder;
 	FVector DirectionToMove = FVector::ZeroVector;
 
 	float ArmLengthTo = 0.0f;
 	FRotator ArmRotationTo = FRotator::ZeroRotator;
 	float ArmLengthSpeed = 0.0f;
 	float ArmRotationSpeed = 0.0f;
-	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void PostInitializeComponents() override;
-	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController*, AActor* DamageCauser) override;
-	//virtual void PossessedBy(AController* NewController) override;
-	
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	bool CanSetWeapon();
 	void SetWeapon(class AABWeapon* NewWeapon);
-	void Attack();
-	FOnAttackEndDelegate OnAttackEnd;
 
-	UPROPERTY(VisibleAnywhere, Category=Weapon)
+	UPROPERTY(VisibleAnywhere, Category = Weapon)
 	class AABWeapon* CurrentWeapon;
 
 	UPROPERTY(VisibleAnywhere, Category = Stat)
 	class UABCharacterStatComponent* CharacterStat;
-
-	UPROPERTY(VisibleAnywhere, Category = Weapon)
-	USkeletalMeshComponent* Weapon;
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	USpringArmComponent* SpringArm;
@@ -71,6 +66,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = UI)
 	class UWidgetComponent* HPBarWidget;
+
+	void Attack();
+	FOnAttackEndDelegate OnAttackEnd;
 
 private:
 	void UpDown(float NewAxisValue);
@@ -88,11 +86,9 @@ private:
 	void AttackCheck();
 
 	void OnAssetLoadCompleted();
-	
-	void OnDestroyDeadNPC();
 
 private:
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, category = Attack, Meta = (AllowPrivateAccess = true))
 	bool IsAttacking;
 
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
@@ -106,7 +102,7 @@ private:
 
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 	int32 MaxCombo;
-	
+
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 	float AttackRange;
 
@@ -116,12 +112,7 @@ private:
 	UPROPERTY()
 	class UABAnimInstance* ABAnim;
 
-	FTimerHandle DestoryNPCTimerHandle = { };
-
-	UPROPERTY(EditAnywhere, Category = Destroy, Meta = (AllowPrivateAccess = true))
-	float EnemyDestroyTime;
-
-	int32 AssetIndex = 0;
+	int AssetIndex = 0;
 
 	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
 	TSharedPtr<struct FStreamableHandle> AssetStreamingHandle;
@@ -138,8 +129,8 @@ private:
 	UPROPERTY()
 	class AABPlayerController* ABPlayerController;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowPrivateAccess = true))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowprivateAccess = true))
 	float DeadTimer;
 
-	FTimerHandle DeadTimerHandle = { };
+	FTimerHandle DeadTimerHandle = {};
 };

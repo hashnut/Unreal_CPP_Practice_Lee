@@ -12,10 +12,6 @@ class ARENABATTLE_API AABPawn : public APawn
 {
 	GENERATED_BODY()
 
-private:
-	void UpDown(float NewAxisValue);
-	void LeftRight(float NewAxisValue);
-	
 public:
 	// Sets default values for this pawn's properties
 	AABPawn();
@@ -27,26 +23,28 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void PostInitializeComponents() override;
 	virtual void PossessedBy(AController* NewController) override;
 
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(VisibleAnywhere, Category=Collision)
 	UCapsuleComponent* Capsule;
 
-	UPROPERTY(VisibleAnywhere, Category=Visual)
+	UPROPERTY(VisibleAnywhere, Category = Visual)
 	USkeletalMeshComponent* Mesh;
 
-	UPROPERTY(VisibleAnywhere, Category=Movement)
+	UPROPERTY(VisibleAnywhere, Category = Movement)
 	UFloatingPawnMovement* Movement;
 
-	UPROPERTY(VisibleAnywhere, Category=Camera)
+	UPROPERTY(VisibleAnywhere, Category = Camera)
 	USpringArmComponent* SpringArm;
-
-	UPROPERTY(VisibleAnywhere, Category=Camera)
+	
+	UPROPERTY(VisibleAnywhere, Category = Collision)
 	UCameraComponent* Camera;
 
+private:
+	void UpDown(float NewAxisValue);
+	void LeftRight(float NewAxisValue);
 };

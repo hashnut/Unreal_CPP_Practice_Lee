@@ -22,7 +22,7 @@ protected:
 	virtual void NativeConstruct() override;
 	void UpdateCharacterStat();
 	void UpdatePlayerState();
-
+	
 private:
 	TWeakObjectPtr<class UABCharacterStatComponent> CurrentCharacterStat;
 	TWeakObjectPtr<class AABPlayerState> CurrentPlayerState;

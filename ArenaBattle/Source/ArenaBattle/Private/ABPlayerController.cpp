@@ -4,6 +4,8 @@
 #include "ABPlayerController.h"
 #include "ABHUDWidget.h"
 #include "ABPlayerState.h"
+#include "ABCharacter.h"
+
 
 AABPlayerController::AABPlayerController()
 {
@@ -12,7 +14,6 @@ AABPlayerController::AABPlayerController()
 	{
 		HUDWidgetClass = UI_HUD_C.Class;
 	}
-
 }
 
 void AABPlayerController::PostInitializeComponents()
@@ -37,13 +38,23 @@ void AABPlayerController::BeginPlay()
 	HUDWidget = CreateWidget<UABHUDWidget>(this, HUDWidgetClass);
 	HUDWidget->AddToViewport();
 
-	auto ABPlayerState = Cast<AABPlayerState>(GetPlayerState());
+	ABPlayerState = Cast<AABPlayerState>(PlayerState);
 	ABCHECK(nullptr != ABPlayerState);
 	HUDWidget->BindPlayerState(ABPlayerState);
 	ABPlayerState->OnPlayerStateChanged.Broadcast();
 }
 
-UABHUDWidget* AABPlayerController::GetHUDWidget() const
+class UABHUDWidget* AABPlayerController::GetHUDWidget() const
 {
 	return HUDWidget;
+}
+
+void AABPlayerController::NPCKill(class AABCharacter* KilledNPC) const
+{
+	ABPlayerState->AddExp(KilledNPC->GetExp());
+}
+
+void AABPlayerController::AddGameScore() const
+{
+	ABPlayerState->AddGameScore();
 }

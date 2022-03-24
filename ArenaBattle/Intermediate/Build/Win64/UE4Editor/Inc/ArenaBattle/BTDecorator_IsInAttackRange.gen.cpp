@@ -40,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeBTDecorator_IsInAttackRange() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTDecorator_IsInAttackRange_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n *\n */" },
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "BTDecorator_IsInAttackRange.h" },
 		{ "ModuleRelativePath", "Public/BTDecorator_IsInAttackRange.h" },
 	};
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBTDecorator_IsInAttackRange() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTDecorator_IsInAttackRange, 3940515056);
+	IMPLEMENT_CLASS(UBTDecorator_IsInAttackRange, 470910727);
 	template<> ARENABATTLE_API UClass* StaticClass<UBTDecorator_IsInAttackRange>()
 	{
 		return UBTDecorator_IsInAttackRange::StaticClass();
