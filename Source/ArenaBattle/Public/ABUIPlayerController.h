@@ -17,7 +17,7 @@ class ARENABATTLE_API AABUIPlayerController : public APlayerController
 protected:
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = UI)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = UI, Meta=(bIsFocusable = true))
 	TSubclassOf<class UUserWidget> UIWidgetClass;
 
 	UPROPERTY()

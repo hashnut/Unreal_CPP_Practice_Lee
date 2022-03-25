@@ -6,12 +6,12 @@
 
 void AABUIPlayerController::BeginPlay()
 {
-
 	Super::BeginPlay();
 
 	ABCHECK(nullptr != UIWidgetClass);
 
 	UIWidgetInstance = CreateWidget<UUserWidget>(this, UIWidgetClass);
+
 	ABCHECK(nullptr != UIWidgetInstance);
 
 	UIWidgetInstance->AddToViewport();
