@@ -83,6 +83,7 @@ void UABCharacterSelectWidget::OnConfirmClicked()
 	NewPlayerData->Level = 1;
 	NewPlayerData->Exp = 0;
 	NewPlayerData->HighScore = 0;
+	NewPlayerData->CharacterIndex = CurrentIndex;
 
 	auto ABPlayerState = GetDefault<AABPlayerState>();
 	if (UGameplayStatics::SaveGameToSlot(NewPlayerData, ABPlayerState->SaveSlotName, 0))
