@@ -170,7 +170,8 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 			GetWorld()->GetTimerManager().SetTimer(DeadTimerHandle, FTimerDelegate::CreateLambda([this]() -> void {
 				if (bIsPlayer)
 				{
-					ABPlayerController->RestartLevel();
+					//ABPlayerController->RestartLevel();
+					ABPlayerController->ShowResultUI();
 				}
 				else
 				{
