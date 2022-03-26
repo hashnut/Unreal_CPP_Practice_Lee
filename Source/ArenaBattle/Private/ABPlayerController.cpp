@@ -6,7 +6,7 @@
 #include "ABPlayerState.h"
 #include "ABCharacter.h"
 #include "ABGameplayWidget.h"
-
+#include "ABGameplayResultWidget.h"
 
 AABPlayerController::AABPlayerController()
 {
@@ -22,6 +22,11 @@ AABPlayerController::AABPlayerController()
 		MenuWidgetClass = UI_MENU_C.Class;
 	}
 
+	static ConstructorHelpers::FClassFinder<UABGameplayResultWidget> UI_RESULT_C(TEXT("/Game/Book/UI/UI_Result.UI_Result_C"));
+	if (UI_RESULT_C.Succeeded())
+	{
+		ResultWidgetClass = UI_RESULT_C.Class;
+	}
 }
 
 void AABPlayerController::PostInitializeComponents()
@@ -49,6 +54,9 @@ void AABPlayerController::BeginPlay()
 	ABCHECK(nullptr != HUDWidget);
 	HUDWidget->AddToViewport(1);
 
+	ResultWidget = CreateWidget<UABGameplayResultWidget>(this, ResultWidgetClass);
+	ABCHECK(nullptr != ResultWidget);
+
 	ABPlayerState = Cast<AABPlayerState>(PlayerState);
 	ABCHECK(nullptr != ABPlayerState);
 	HUDWidget->BindPlayerState(ABPlayerState);
@@ -74,6 +82,12 @@ void AABPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 	InputComponent->BindAction(TEXT("GamePause"), EInputEvent::IE_Pressed, this, &AABPlayerController::OnGamePause);
+}
+
+void AABPlayerController::ShowResultUI()
+{
+	ResultWidget->AddToViewport();
+	ChangeInputMode(false);
 }
 
 void AABPlayerController::ChangeInputMode(bool bGameMode)

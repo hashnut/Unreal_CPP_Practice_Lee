@@ -3,6 +3,7 @@
 
 #include "ABGameplayWidget.h"
 #include "Components/Button.h"
+#include "ABPlayerController.h"
 
 void UABGameplayWidget::NativeConstruct()
 {
@@ -29,12 +30,17 @@ void UABGameplayWidget::NativeConstruct()
 
 void UABGameplayWidget::OnResumeClicked()
 {
+	auto ABPlayerController = Cast<AABPlayerController>(GetOwningPlayer());
+	ABCHECK(nullptr != ABPlayerController);
 
+	RemoveFromParent();
+	ABPlayerController->ChangeInputMode(true);
+	ABPlayerController->SetPause(false);
 }
 
 void UABGameplayWidget::OnReturnToTitleClicked()
 {
-
+	UGameplayStatics::OpenLevel(GetWorld(), TEXT("Title"));
 }
 
 void UABGameplayWidget::OnRetryGameClicked()
